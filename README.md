@@ -2,7 +2,7 @@
 
 An AI customer support assistant for a fictional clothing and shoe shop, in French and English. It answers from policy documents, looks up orders, creates return requests after confirmation, and hands everything else to a human advisor.
 
-> Work in progress: the design is documented, the code is being built.
+> Work in progress: the database and the first API route are built; the RAG, the agent and the interfaces come next.
 
 ## What it does
 
