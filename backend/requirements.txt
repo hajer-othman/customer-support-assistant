@@ -2,3 +2,5 @@ sqlalchemy
 alembic
 psycopg[binary]
 python-dotenv
+fastapi
+uvicorn

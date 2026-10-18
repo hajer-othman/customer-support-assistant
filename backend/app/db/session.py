@@ -1,3 +1,4 @@
+#La connexion à la base
 import os
 
 from dotenv import load_dotenv
