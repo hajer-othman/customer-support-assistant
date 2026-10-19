@@ -1,0 +1,1068 @@
+[
+  {
+    "id": "Q01",
+    "language": "fr",
+    "category": "direct",
+    "question": "Quel est le délai pour retourner un article ?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "30 days after delivery (counted from the delivery date, not the order date)."
+  },
+  {
+    "id": "Q02",
+    "language": "fr",
+    "category": "direct",
+    "question": "Les retours sont-ils gratuits ?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "Yes, returns are free. A prepaid return label is sent by email once the request is approved."
+  },
+  {
+    "id": "Q03",
+    "language": "fr",
+    "category": "direct",
+    "question": "Combien de temps faut-il pour être remboursé ?",
+    "answerable": true,
+    "expected_documents": [
+      "refunds"
+    ],
+    "expected_answer": "Within 5 to 10 business days after the parcel is received."
+  },
+  {
+    "id": "Q04",
+    "language": "fr",
+    "category": "direct",
+    "question": "Combien coûte la livraison express ?",
+    "answerable": true,
+    "expected_documents": [
+      "shipping"
+    ],
+    "expected_answer": "7 euros, whatever the amount of the order (express is never free)."
+  },
+  {
+    "id": "Q05",
+    "language": "fr",
+    "category": "direct",
+    "question": "Jusqu'à quand puis-je annuler une commande ?",
+    "answerable": true,
+    "expected_documents": [
+      "cancellations-and-address"
+    ],
+    "expected_answer": "Only while the order is being prepared (status processing). Once shipped, it cannot be cancelled."
+  },
+  {
+    "id": "Q06",
+    "language": "fr",
+    "category": "direct",
+    "question": "Peut-on échanger un article contre une autre taille ?",
+    "answerable": true,
+    "expected_documents": [
+      "exchanges"
+    ],
+    "expected_answer": "Yes: same item in another size or colour, depending on stock. An advisor handles it; the assistant passes the request as a ticket."
+  },
+  {
+    "id": "Q07",
+    "language": "fr",
+    "category": "direct",
+    "question": "Quels articles ne peuvent pas être retournés ?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "Underwear and swimwear, for hygiene reasons."
+  },
+  {
+    "id": "Q08",
+    "language": "en",
+    "category": "direct",
+    "question": "How long does standard delivery take?",
+    "answerable": true,
+    "expected_documents": [
+      "shipping"
+    ],
+    "expected_answer": "3 to 5 business days."
+  },
+  {
+    "id": "Q09",
+    "language": "en",
+    "category": "direct",
+    "question": "From what amount is standard delivery free?",
+    "answerable": true,
+    "expected_documents": [
+      "shipping"
+    ],
+    "expected_answer": "From 50 euros of items, calculated before delivery costs."
+  },
+  {
+    "id": "Q10",
+    "language": "en",
+    "category": "direct",
+    "question": "In what condition must an item be to be returned?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "Unworn, with its tags attached, and in its original packaging."
+  },
+  {
+    "id": "Q11",
+    "language": "en",
+    "category": "direct",
+    "question": "Which payment method is used for refunds?",
+    "answerable": true,
+    "expected_documents": [
+      "refunds"
+    ],
+    "expected_answer": "The payment method used for the order."
+  },
+  {
+    "id": "Q12",
+    "language": "en",
+    "category": "direct",
+    "question": "Can I change my delivery address?",
+    "answerable": true,
+    "expected_documents": [
+      "cancellations-and-address"
+    ],
+    "expected_answer": "Only while the order is being prepared (status processing). After shipping it cannot be changed. The assistant cannot modify an order itself; it passes the request to an advisor."
+  },
+  {
+    "id": "Q13",
+    "language": "en",
+    "category": "direct",
+    "question": "How do I request a return?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "Ask the assistant: it checks the item is eligible, asks for confirmation, then submits the request. An advisor then approves or refuses it."
+  },
+  {
+    "id": "Q14",
+    "language": "en",
+    "category": "direct",
+    "question": "Can I send back just one item from an order?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "Yes. Each item is returned separately, and only one return request can be made per item."
+  },
+  {
+    "id": "Q15",
+    "language": "fr",
+    "category": "reformulated",
+    "question": "je peux renvoyer mes baskets apres 3 semaines ?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "Yes if it is within 30 days of delivery (3 weeks is within the delay) and the shoes are unworn, with tags and original packaging."
+  },
+  {
+    "id": "Q16",
+    "language": "fr",
+    "category": "reformulated",
+    "question": "mon colis est parti mais pas encore arrivé, je peux le renvoyer direct ?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "No. An order shipped but not yet delivered cannot be returned until it arrives; then the 30 days start."
+  },
+  {
+    "id": "Q17",
+    "language": "fr",
+    "category": "reformulated",
+    "question": "c'est quoi le délai pour avoir mon argent après un retour??",
+    "answerable": true,
+    "expected_documents": [
+      "refunds"
+    ],
+    "expected_answer": "Refund within 5 to 10 business days after the parcel is received (once the return is approved)."
+  },
+  {
+    "id": "Q18",
+    "language": "fr",
+    "category": "reformulated",
+    "question": "jai commandé la mauvaise taille, vous pouvez me mettre la taille au dessus ?",
+    "answerable": true,
+    "expected_documents": [
+      "exchanges"
+    ],
+    "expected_answer": "An exchange for another size is possible depending on stock. An advisor handles it; the assistant passes the request as a ticket and cannot create the exchange itself."
+  },
+  {
+    "id": "Q19",
+    "language": "fr",
+    "category": "reformulated",
+    "question": "Ma commande est encore en prépa, je peux changer ladresse ?",
+    "answerable": true,
+    "expected_documents": [
+      "cancellations-and-address"
+    ],
+    "expected_answer": "Yes, while the order is being prepared (processing). The assistant cannot modify the order itself; it passes the request to an advisor as a ticket."
+  },
+  {
+    "id": "Q20",
+    "language": "fr",
+    "category": "reformulated",
+    "question": "si ma commande dépasse un peu 50 euros la livraison est offerte ou pas ?",
+    "answerable": true,
+    "expected_documents": [
+      "shipping"
+    ],
+    "expected_answer": "Yes, standard delivery is free from 50 euros of items (express is never free)."
+  },
+  {
+    "id": "Q21",
+    "language": "fr",
+    "category": "reformulated",
+    "question": "vous reprenez les maillots de bain ?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "No. Swimwear cannot be returned, for hygiene reasons."
+  },
+  {
+    "id": "Q22",
+    "language": "en",
+    "category": "reformulated",
+    "question": "can i send my jumper back if i already wore it once",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "No. Items must be unworn, with tags attached and in the original packaging."
+  },
+  {
+    "id": "Q23",
+    "language": "en",
+    "category": "reformulated",
+    "question": "how fast can i get my order if im in a hurry",
+    "answerable": true,
+    "expected_documents": [
+      "shipping"
+    ],
+    "expected_answer": "Express delivery: 1 to 2 business days, for 7 euros."
+  },
+  {
+    "id": "Q24",
+    "language": "en",
+    "category": "reformulated",
+    "question": "you received my parcel 3 weeks ago and i still havent been refunded",
+    "answerable": true,
+    "expected_documents": [
+      "refunds"
+    ],
+    "expected_answer": "Refunds are issued within 5 to 10 business days after receipt; more than 10 business days have passed, so the assistant can pass the case to an advisor."
+  },
+  {
+    "id": "Q25",
+    "language": "en",
+    "category": "reformulated",
+    "question": "can i swap my blue shirt for the same one in black",
+    "answerable": true,
+    "expected_documents": [
+      "exchanges"
+    ],
+    "expected_answer": "Yes, the same item in another colour, depending on stock. An advisor handles it; the assistant passes the request as a ticket."
+  },
+  {
+    "id": "Q26",
+    "language": "en",
+    "category": "reformulated",
+    "question": "do i pay for sending stuff back?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "No, returns are free. A prepaid label is sent by email once the request is approved."
+  },
+  {
+    "id": "Q27",
+    "language": "en",
+    "category": "reformulated",
+    "question": "can i still cancel my order, it says shipped",
+    "answerable": true,
+    "expected_documents": [
+      "cancellations-and-address"
+    ],
+    "expected_answer": "No. A shipped order cannot be cancelled. Once delivered, items can be returned within 30 days."
+  },
+  {
+    "id": "Q28",
+    "language": "en",
+    "category": "reformulated",
+    "question": "my order says processing, what does that mean?",
+    "answerable": true,
+    "expected_documents": [
+      "shipping"
+    ],
+    "expected_answer": "Processing means the order is being prepared (before shipping). While processing it can still be cancelled or its address changed."
+  },
+  {
+    "id": "Q29",
+    "language": "fr",
+    "category": "cross",
+    "question": "Ma commande vient d'être expédiée mais je veux la retourner, comment faire ?",
+    "answerable": true,
+    "expected_documents": [
+      "cancellations-and-address",
+      "returns"
+    ],
+    "expected_answer": "A shipped order cannot be cancelled and cannot be returned before delivery. Once delivered, the items can be returned within 30 days under the return conditions."
+  },
+  {
+    "id": "Q30",
+    "language": "fr",
+    "category": "cross",
+    "question": "Si je retourne un article, est-ce que je reçois l'étiquette avant de l'envoyer et quand serai-je remboursé ?",
+    "answerable": true,
+    "expected_documents": [
+      "returns",
+      "refunds"
+    ],
+    "expected_answer": "The prepaid label is sent by email once the return request is approved. The refund comes 5 to 10 business days after the parcel is received."
+  },
+  {
+    "id": "Q31",
+    "language": "fr",
+    "category": "cross",
+    "question": "J'ai annulé ma commande hier et je n'ai toujours pas été remboursé, que faire ?",
+    "answerable": true,
+    "expected_documents": [
+      "refunds",
+      "cancellations-and-address"
+    ],
+    "expected_answer": "The assistant cannot issue refunds itself; it passes the case to an advisor as a ticket."
+  },
+  {
+    "id": "Q32",
+    "language": "fr",
+    "category": "cross",
+    "question": "Je préfère être remboursé plutôt qu'échanger ma robe, c'est possible ?",
+    "answerable": true,
+    "expected_documents": [
+      "exchanges",
+      "returns"
+    ],
+    "expected_answer": "Yes, a return can be requested instead of an exchange, under the return conditions and delay (30 days after delivery)."
+  },
+  {
+    "id": "Q33",
+    "language": "en",
+    "category": "cross",
+    "question": "My order has been delivered. Can I still change the address or cancel it?",
+    "answerable": true,
+    "expected_documents": [
+      "cancellations-and-address",
+      "returns"
+    ],
+    "expected_answer": "No, cancellation and address changes are only possible while the order is being prepared. Items can still be returned within 30 days of delivery."
+  },
+  {
+    "id": "Q34",
+    "language": "en",
+    "category": "cross",
+    "question": "If my return is refused, what can I do and will I still be refunded?",
+    "answerable": true,
+    "expected_documents": [
+      "returns",
+      "refunds"
+    ],
+    "expected_answer": "If the customer disagrees, the assistant can pass the case to an advisor for review. A refund is issued only after a return is approved and the parcel received."
+  },
+  {
+    "id": "Q35",
+    "language": "en",
+    "category": "cross",
+    "question": "I ordered two items totalling 45 euros with standard delivery. How much is delivery, and can I return just one of them later?",
+    "answerable": true,
+    "expected_documents": [
+      "shipping",
+      "returns"
+    ],
+    "expected_answer": "Standard delivery costs 4.90 euros (under 50 euros). Yes, one item can be returned on its own within 30 days of delivery."
+  },
+  {
+    "id": "Q36",
+    "language": "en",
+    "category": "cross",
+    "question": "I want to cancel my order and get my money back, how does it work?",
+    "answerable": true,
+    "expected_documents": [
+      "cancellations-and-address",
+      "refunds"
+    ],
+    "expected_answer": "Cancellation is only possible while the order is processing; the assistant passes the request to an advisor as a ticket, and a missing refund after a cancellation is also passed to an advisor."
+  },
+  {
+    "id": "Q37",
+    "language": "fr",
+    "category": "application",
+    "question": "Mon panier fait 49,90 €. Combien je paie la livraison standard ?",
+    "answerable": true,
+    "expected_documents": [
+      "shipping"
+    ],
+    "expected_answer": "4.90 euros, because the items total is under 50 euros."
+  },
+  {
+    "id": "Q38",
+    "language": "fr",
+    "category": "application",
+    "question": "J'ai commandé pour 50,00 € d'articles, la livraison standard est-elle gratuite ?",
+    "answerable": true,
+    "expected_documents": [
+      "shipping"
+    ],
+    "expected_answer": "Yes. An order of exactly 50.00 euros in items qualifies for free standard delivery."
+  },
+  {
+    "id": "Q39",
+    "language": "fr",
+    "category": "application",
+    "question": "J'ai reçu ma commande il y a 40 jours, puis-je encore retourner un article ?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "No. The return period is 30 days after delivery, and 40 days have passed."
+  },
+  {
+    "id": "Q40",
+    "language": "fr",
+    "category": "application",
+    "question": "J'ai reçu ma commande il y a 28 jours, combien de temps me reste-t-il pour retourner un article ?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "2 days left (30-day period from the delivery date)."
+  },
+  {
+    "id": "Q41",
+    "language": "fr",
+    "category": "application",
+    "question": "Je commande pour 30 € et je veux l'express, combien je paie en livraison ?",
+    "answerable": true,
+    "expected_documents": [
+      "shipping"
+    ],
+    "expected_answer": "7 euros (express costs 7 euros whatever the amount)."
+  },
+  {
+    "id": "Q42",
+    "language": "en",
+    "category": "application",
+    "question": "My order is worth 80 euros in items. How much is express delivery?",
+    "answerable": true,
+    "expected_documents": [
+      "shipping"
+    ],
+    "expected_answer": "7 euros. Express delivery is never free, even above 50 euros."
+  },
+  {
+    "id": "Q43",
+    "language": "en",
+    "category": "application",
+    "question": "I received my parcel 12 days ago. Can I still return a pullover I haven't worn?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "Yes, 12 days is within the 30-day period, provided it is unworn with tags and original packaging."
+  },
+  {
+    "id": "Q44",
+    "language": "en",
+    "category": "application",
+    "question": "I bought a swimsuit 5 days ago, tags on, never worn. Can I return it?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "No. Swimwear cannot be returned for hygiene reasons, even within the delay."
+  },
+  {
+    "id": "Q45",
+    "language": "en",
+    "category": "application",
+    "question": "You received my parcel 7 business days ago and the refund isn't there yet. Is it late?",
+    "answerable": true,
+    "expected_documents": [
+      "refunds"
+    ],
+    "expected_answer": "Not yet. Refunds are issued within 5 to 10 business days after receipt. After 10 business days the assistant can pass the case to an advisor."
+  },
+  {
+    "id": "Q46",
+    "language": "en",
+    "category": "application",
+    "question": "My order is currently shipped. Can you change the delivery address?",
+    "answerable": true,
+    "expected_documents": [
+      "cancellations-and-address"
+    ],
+    "expected_answer": "No. The address can only be changed while the order is being prepared (processing)."
+  },
+  {
+    "id": "Q47",
+    "language": "fr",
+    "category": "direct",
+    "question": "Avez-vous un code promo pour une première commande ?",
+    "answerable": true,
+    "expected_documents": [
+      "promotions-loyalty"
+    ],
+    "expected_answer": "Yes: new customers receive a welcome promo code by email after creating an account. It has its own conditions and expiry date, and only one promo code can be used per order."
+  },
+  {
+    "id": "Q48",
+    "language": "fr",
+    "category": "direct",
+    "question": "Puis-je acheter une carte cadeau ?",
+    "answerable": true,
+    "expected_documents": [
+      "gift-cards"
+    ],
+    "expected_answer": "Yes. Gift cards are available in amounts of 20, 50 and 100 euros, sent by email as a digital code, and valid for 12 months."
+  },
+  {
+    "id": "Q49",
+    "language": "fr",
+    "category": "not_covered",
+    "question": "Avez-vous un magasin physique près de chez moi ?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer."
+  },
+  {
+    "id": "Q50",
+    "language": "fr",
+    "category": "direct",
+    "question": "Livrez-vous à l'étranger ?",
+    "answerable": true,
+    "expected_documents": [
+      "shipping"
+    ],
+    "expected_answer": "No. The shop delivers only within the country where it operates; international delivery is not offered."
+  },
+  {
+    "id": "Q51",
+    "language": "fr",
+    "category": "direct",
+    "question": "Quels moyens de paiement acceptez-vous ?",
+    "answerable": true,
+    "expected_documents": [
+      "payment-methods"
+    ],
+    "expected_answer": "Bank cards (Visa and Mastercard), PayPal, and mobile wallets such as Apple Pay and Google Pay. Shop gift cards can also be used."
+  },
+  {
+    "id": "Q52",
+    "language": "fr",
+    "category": "direct",
+    "question": "Comment dois-je laver un pull en laine ?",
+    "answerable": true,
+    "expected_documents": [
+      "garment-care"
+    ],
+    "expected_answer": "By hand in cold water with a gentle detergent, or on the wool cycle. Do not wring; press the water out and dry flat away from direct heat. The care label comes first."
+  },
+  {
+    "id": "Q53",
+    "language": "fr",
+    "category": "not_covered",
+    "question": "Quelle taille dois-je choisir si je fais 1,75 m ?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer. The size guide is based on body measurements (chest, waist, hips, foot length), not on height; the assistant must not pick a size from height alone."
+  },
+  {
+    "id": "Q54",
+    "language": "en",
+    "category": "direct",
+    "question": "Do you have a loyalty programme?",
+    "answerable": true,
+    "expected_documents": [
+      "promotions-loyalty"
+    ],
+    "expected_answer": "Yes. It is free with a customer account: 1 point per euro spent on items (delivery fees excluded), 100 points are worth a 5 euro discount, and points expire 12 months after they were earned."
+  },
+  {
+    "id": "Q55",
+    "language": "en",
+    "category": "not_covered",
+    "question": "What is your customer service phone number?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer. It may mention the chat assistant and the support email, but must not give a phone number."
+  },
+  {
+    "id": "Q56",
+    "language": "en",
+    "category": "direct",
+    "question": "Can I pay in several instalments?",
+    "answerable": true,
+    "expected_documents": [
+      "payment-methods"
+    ],
+    "expected_answer": "No. Payment in instalments is not offered; the full amount is charged when the order is validated."
+  },
+  {
+    "id": "Q57",
+    "language": "en",
+    "category": "not_covered",
+    "question": "Do you offer same-day delivery in my city?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer. It may mention express delivery (1 to 2 business days) but must not claim same-day delivery exists."
+  },
+  {
+    "id": "Q58",
+    "language": "en",
+    "category": "not_covered",
+    "question": "Can I return an item I bought in your physical store?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer."
+  },
+  {
+    "id": "Q59",
+    "language": "en",
+    "category": "not_covered",
+    "question": "Is there a student discount?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer."
+  },
+  {
+    "id": "Q60",
+    "language": "en",
+    "category": "not_covered",
+    "question": "Can I have my parcel delivered to a pickup point or parcel locker?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer."
+  },
+  {
+    "id": "Q61",
+    "language": "fr",
+    "category": "direct",
+    "question": "Quels sont les horaires des conseillers ?",
+    "answerable": true,
+    "expected_documents": [
+      "contact-hours"
+    ],
+    "expected_answer": "Advisors work Monday to Friday, 9:00 to 18:00 local time, excluding public holidays. Tickets created outside these hours are handled on the next business day."
+  },
+  {
+    "id": "Q62",
+    "language": "en",
+    "category": "direct",
+    "question": "How long do I have to report a defective item?",
+    "answerable": true,
+    "expected_documents": [
+      "defective-products"
+    ],
+    "expected_answer": "Within 30 days after the delivery date. After 30 days, the assistant passes the case to an advisor, who decides on any follow-up."
+  },
+  {
+    "id": "Q63",
+    "language": "en",
+    "category": "direct",
+    "question": "How do I reset my password?",
+    "answerable": true,
+    "expected_documents": [
+      "customer-account"
+    ],
+    "expected_answer": "Use the forgot password link on the login page; a reset link is sent by email. If it does not arrive, check the spam folder, then tell the assistant."
+  },
+  {
+    "id": "Q64",
+    "language": "fr",
+    "category": "reformulated",
+    "question": "je suis entre le M et le L, je prends quoi ?",
+    "answerable": true,
+    "expected_documents": [
+      "size-guide"
+    ],
+    "expected_answer": "Choose the larger size (L) for a comfortable fit, or the smaller one (M) for a close fit."
+  },
+  {
+    "id": "Q65",
+    "language": "fr",
+    "category": "reformulated",
+    "question": "jai perdu le code de ma carte cadeau, je fais quoi",
+    "answerable": true,
+    "expected_documents": [
+      "gift-cards"
+    ],
+    "expected_answer": "Tell the assistant: it creates a ticket for an advisor. If the code was never received, check the spam folder first."
+  },
+  {
+    "id": "Q66",
+    "language": "fr",
+    "category": "reformulated",
+    "question": "mon colis est marqué livré mais je lai pas reçu",
+    "answerable": true,
+    "expected_documents": [
+      "order-tracking"
+    ],
+    "expected_answer": "Check with neighbours or people at the address first. If it is still not found, the assistant creates a ticket for an advisor."
+  },
+  {
+    "id": "Q67",
+    "language": "fr",
+    "category": "reformulated",
+    "question": "on ma débité 2 fois pour la même commande !!",
+    "answerable": true,
+    "expected_documents": [
+      "payment-methods"
+    ],
+    "expected_answer": "The assistant cannot move money. It creates a ticket for an advisor, who handles payment problems such as a double charge."
+  },
+  {
+    "id": "Q68",
+    "language": "fr",
+    "category": "reformulated",
+    "question": "le zip de ma veste a cassé au bout de 2 semaines, je peux la renvoyer ?",
+    "answerable": true,
+    "expected_documents": [
+      "defective-products",
+      "returns"
+    ],
+    "expected_answer": "Yes, a defect reported within 30 days after delivery can be sent back, even if the item was worn once, as long as it is not due to misuse. An advisor decides; sending back a defective item is free."
+  },
+  {
+    "id": "Q69",
+    "language": "en",
+    "category": "reformulated",
+    "question": "can i use two promo codes on the same order",
+    "answerable": true,
+    "expected_documents": [
+      "promotions-loyalty"
+    ],
+    "expected_answer": "No. Only one promo code can be used per order."
+  },
+  {
+    "id": "Q70",
+    "language": "en",
+    "category": "reformulated",
+    "question": "i forgot my password and the email never came",
+    "answerable": true,
+    "expected_documents": [
+      "customer-account"
+    ],
+    "expected_answer": "Check the spam folder and the spelling of the email address. If it still does not arrive, tell the assistant, which creates a ticket."
+  },
+  {
+    "id": "Q71",
+    "language": "en",
+    "category": "reformulated",
+    "question": "is there a way to chat with a real person right now",
+    "answerable": true,
+    "expected_documents": [
+      "contact-hours"
+    ],
+    "expected_answer": "Advisors do not join the chat live. The assistant is available at any time and can create a ticket; advisors handle tickets Monday to Friday, 9:00 to 18:00."
+  },
+  {
+    "id": "Q72",
+    "language": "en",
+    "category": "reformulated",
+    "question": "can i put my suede boots in the washer",
+    "answerable": true,
+    "expected_documents": [
+      "garment-care"
+    ],
+    "expected_answer": "No. Never put leather or suede shoes in a washing machine. Brush suede with a suede brush and use a protective spray."
+  },
+  {
+    "id": "Q73",
+    "language": "en",
+    "category": "reformulated",
+    "question": "can u delete my account and my data",
+    "answerable": true,
+    "expected_documents": [
+      "customer-account",
+      "privacy"
+    ],
+    "expected_answer": "Yes, on request: tell the assistant, which creates a ticket for an advisor. Loyalty points are lost when an account is deleted."
+  },
+  {
+    "id": "Q74",
+    "language": "fr",
+    "category": "cross",
+    "question": "J'ai payé ma commande avec une carte cadeau et je retourne un article, comment suis-je remboursé ?",
+    "answerable": true,
+    "expected_documents": [
+      "gift-cards",
+      "refunds"
+    ],
+    "expected_answer": "The refund goes back to the balance of the gift card, because that was the payment method used. It comes 5 to 10 business days after the parcel is received."
+  },
+  {
+    "id": "Q75",
+    "language": "fr",
+    "category": "cross",
+    "question": "J'ai utilisé un code promo sur ma commande. Si je retourne un article, je suis remboursé de combien ?",
+    "answerable": true,
+    "expected_documents": [
+      "promotions-loyalty",
+      "refunds"
+    ],
+    "expected_answer": "Of the amount actually paid for that item, not its full price."
+  },
+  {
+    "id": "Q76",
+    "language": "en",
+    "category": "cross",
+    "question": "My jacket is defective and I received it 20 days ago. Is sending it back free, and does it have to be unworn?",
+    "answerable": true,
+    "expected_documents": [
+      "defective-products",
+      "returns"
+    ],
+    "expected_answer": "Sending back a defective item is free. Within 30 days, the unworn condition is relaxed if the defect is not caused by misuse (worn or washed once). An advisor decides."
+  },
+  {
+    "id": "Q77",
+    "language": "en",
+    "category": "cross",
+    "question": "My standard delivery is 8 business days late. What should I do, and how long should it normally take?",
+    "answerable": true,
+    "expected_documents": [
+      "shipping",
+      "order-tracking"
+    ],
+    "expected_answer": "Standard delivery normally takes 3 to 5 business days. If it is late, tell the assistant, which creates a ticket for an advisor."
+  },
+  {
+    "id": "Q78",
+    "language": "fr",
+    "category": "application",
+    "question": "J'ai reçu ma commande il y a 31 jours, puis-je retourner un article non porté ?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "No. The return period is 30 days after delivery, and 31 days have passed."
+  },
+  {
+    "id": "Q79",
+    "language": "fr",
+    "category": "application",
+    "question": "J'ai 200 points de fidélité, ça fait combien de réduction ?",
+    "answerable": true,
+    "expected_documents": [
+      "promotions-loyalty"
+    ],
+    "expected_answer": "10 euros (100 points are worth a 5 euro discount)."
+  },
+  {
+    "id": "Q80",
+    "language": "fr",
+    "category": "application",
+    "question": "J'ai gagné mes points de fidélité il y a 14 mois, puis-je encore les utiliser ?",
+    "answerable": true,
+    "expected_documents": [
+      "promotions-loyalty"
+    ],
+    "expected_answer": "No. Points expire 12 months after the day they were earned."
+  },
+  {
+    "id": "Q81",
+    "language": "en",
+    "category": "application",
+    "question": "I spent 80 euros on items plus 7 euros for express delivery. How many loyalty points did I earn?",
+    "answerable": true,
+    "expected_documents": [
+      "promotions-loyalty"
+    ],
+    "expected_answer": "80 points: 1 point per euro spent on items, delivery fees not included."
+  },
+  {
+    "id": "Q82",
+    "language": "en",
+    "category": "application",
+    "question": "I received a defective jacket 45 days ago. Can I still send it back?",
+    "answerable": true,
+    "expected_documents": [
+      "defective-products"
+    ],
+    "expected_answer": "The standard procedure no longer applies after 30 days. The assistant passes the case to an advisor, who decides on any follow-up; no solution is guaranteed."
+  },
+  {
+    "id": "Q83",
+    "language": "en",
+    "category": "application",
+    "question": "I bought a gift card 13 months ago. Can I still use it?",
+    "answerable": true,
+    "expected_documents": [
+      "gift-cards"
+    ],
+    "expected_answer": "No. A gift card is valid for 12 months after the purchase date, so it has expired."
+  },
+  {
+    "id": "Q84",
+    "language": "fr",
+    "category": "not_covered",
+    "question": "Livrez-vous le dimanche ?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer."
+  },
+  {
+    "id": "Q85",
+    "language": "fr",
+    "category": "not_covered",
+    "question": "Proposez-vous l'emballage cadeau ?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer."
+  },
+  {
+    "id": "Q86",
+    "language": "fr",
+    "category": "not_covered",
+    "question": "Puis-je précommander un article qui n'est pas encore en stock ?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer."
+  },
+  {
+    "id": "Q87",
+    "language": "fr",
+    "category": "not_covered",
+    "question": "Puis-je avoir une facture au nom de mon entreprise avec un numéro de TVA ?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer. It may mention that an invoice is sent with the order confirmation, but must not claim company or VAT invoices exist."
+  },
+  {
+    "id": "Q88",
+    "language": "fr",
+    "category": "not_covered",
+    "question": "Quel transporteur livre mes colis ?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer."
+  },
+  {
+    "id": "Q89",
+    "language": "fr",
+    "category": "not_covered",
+    "question": "Où sont fabriqués vos vêtements ?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer."
+  },
+  {
+    "id": "Q90",
+    "language": "fr",
+    "category": "not_covered",
+    "question": "Faites-vous des retouches, par exemple raccourcir un pantalon ?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer."
+  },
+  {
+    "id": "Q91",
+    "language": "fr",
+    "category": "not_covered",
+    "question": "Vendez-vous des vêtements pour enfants ?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer."
+  },
+  {
+    "id": "Q92",
+    "language": "en",
+    "category": "not_covered",
+    "question": "Can I use two gift cards on the same order?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer."
+  },
+  {
+    "id": "Q93",
+    "language": "en",
+    "category": "not_covered",
+    "question": "Can I return a gift I received without the receipt?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer. It may mention that returns are requested with the order number and the email used for the order."
+  },
+  {
+    "id": "Q94",
+    "language": "en",
+    "category": "not_covered",
+    "question": "Do you match the price of other shops?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer."
+  },
+  {
+    "id": "Q95",
+    "language": "en",
+    "category": "not_covered",
+    "question": "Do you have a mobile app?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer."
+  },
+  {
+    "id": "Q96",
+    "language": "en",
+    "category": "not_covered",
+    "question": "Can I give you my old clothes to recycle?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer."
+  },
+  {
+    "id": "Q97",
+    "language": "en",
+    "category": "not_covered",
+    "question": "Will you tell me when the black pullover is back in stock?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer."
+  },
+  {
+    "id": "Q98",
+    "language": "en",
+    "category": "not_covered",
+    "question": "Can I change my payment method after placing the order?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer."
+  },
+  {
+    "id": "Q99",
+    "language": "en",
+    "category": "not_covered",
+    "question": "Can I choose a delivery time slot?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer."
+  },
+  {
+    "id": "Q100",
+    "language": "fr",
+    "category": "not_covered",
+    "question": "Pouvez-vous me conseiller une tenue pour un mariage ?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer."
+  }
+]
