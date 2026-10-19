@@ -104,7 +104,7 @@ Six measurable targets decide whether the assistant is good enough to ship; thre
 
 | Criterion | Target |
 | --- | --- |
-| 1. Answer quality (RAG) | At least 80% correct and faithful answers on 60 French and English test questions, with sources, and an explicit "I don't know" when the documents are silent |
+| 1. Answer quality (RAG) | At least 80% correct and faithful answers on 100 French and English test questions, with sources, and an explicit "I don't know" when the documents are silent |
 | 2. Data security | Zero leaks between customers, including under prompt injection, checked by automated tests |
 | 3. Reliable actions | No return without explicit confirmation; return rules respected in 100% of test cases; right tool with right parameters in at least 90% |
 | 4. Correct escalation | Refunds, exchanges, cancellations and payment problems escalated in at least 90% of cases, with no needless escalation |
@@ -126,4 +126,4 @@ Every choice below serves safety or simplicity, and the provider choice stays op
 | Agent | Hand-written loop in week 4, LangGraph in week 5 | Understand the mechanism before adopting the framework |
 | Vector search | pgvector instead of FAISS | Vectors live next to orders and tickets and filter in SQL; speed does not matter at this size |
 | LLM and embeddings | A primary and a backup generation provider (Mistral and Groq to start); embeddings chosen separately | Free-tier limits change, so the final choice is measured on the same test questions in week 2 |
-| Languages | French and English only | Two languages keep the 60-question evaluation reliable on free models |
+| Languages | French and English only | Two languages keep the 100-question evaluation reliable on free models |
