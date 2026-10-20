@@ -2,6 +2,7 @@ import uuid
 from datetime import datetime
 from decimal import Decimal
 
+from pgvector.sqlalchemy import Vector
 from sqlalchemy import (
     CheckConstraint,
     DateTime,
@@ -10,6 +11,7 @@ from sqlalchemy import (
     Numeric,
     String,
     Text,
+    UniqueConstraint,
     func,
 )
 from sqlalchemy.orm import DeclarativeBase, Mapped, mapped_column
@@ -150,14 +152,22 @@ class Ticket(Base):
     )
 
 
-class PolicyPassage(Base):
-    __tablename__ = "policy_passages"
+class PolicyChunk(Base):
+    __tablename__ = "policy_chunks"
     __table_args__ = (
-        CheckConstraint("language IN ('fr', 'en')", name="ck_policy_passages_language"),
+        CheckConstraint("language IN ('fr', 'en')", name="ck_policy_chunks_language"),
+        # une section par document et par langue : l'ingestion peut être relancée sans doublon
+        UniqueConstraint(
+            "document_name", "language", "section_title", name="uq_policy_chunks_section"
+        ),
     )
 
     id: Mapped[uuid.UUID] = mapped_column(primary_key=True, default=uuid.uuid4)
     document_name: Mapped[str] = mapped_column(String)
     language: Mapped[str] = mapped_column(String)
+    section_title: Mapped[str] = mapped_column(String)
     content: Mapped[str] = mapped_column(Text)
-    # La colonne "embedding" sera ajoutée en semaine 2 par une migration Alembic.
+    # empreinte du texte vectorisé (en-tête + contenu) : détecte les sections modifiées
+    content_hash: Mapped[str] = mapped_column(String)
+    # mistral-embed renvoie des vecteurs de 1 024 nombres
+    embedding: Mapped[list[float]] = mapped_column(Vector(1024))
