@@ -1,0 +1,5268 @@
+[
+  {
+    "id": "Q01",
+    "language": "fr",
+    "category": "direct",
+    "question": "Quel est le délai pour retourner un article ?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "30 days after delivery (counted from the delivery date, not the order date).",
+    "hits": [
+      {
+        "document": "returns",
+        "section": "Délai de retour",
+        "score": 0.865064763518303
+      },
+      {
+        "document": "shipping",
+        "section": "À la livraison de votre commande",
+        "score": 0.843606050050135
+      },
+      {
+        "document": "size-guide",
+        "section": "Si la taille ne convient pas",
+        "score": 0.8418314046812689
+      },
+      {
+        "document": "returns",
+        "section": "État requis pour un retour",
+        "score": 0.836192161730448
+      },
+      {
+        "document": "returns",
+        "section": "Aucun retour avant la livraison",
+        "score": 0.8361080418518
+      },
+      {
+        "document": "returns",
+        "section": "Remboursement après un retour",
+        "score": 0.834562206801355
+      },
+      {
+        "document": "defective-products",
+        "section": "Exception à la condition « non porté »",
+        "score": 0.833380341798119
+      },
+      {
+        "document": "defective-products",
+        "section": "Délai pour signaler un défaut",
+        "score": 0.828752145223964
+      }
+    ]
+  },
+  {
+    "id": "Q02",
+    "language": "fr",
+    "category": "direct",
+    "question": "Les retours sont-ils gratuits ?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "Yes, returns are free. A prepaid return label is sent by email once the request is approved.",
+    "hits": [
+      {
+        "document": "returns",
+        "section": "Frais et envoi du retour",
+        "score": 0.829035019065547
+      },
+      {
+        "document": "returns",
+        "section": "Aucun retour avant la livraison",
+        "score": 0.817473851800529
+      },
+      {
+        "document": "returns",
+        "section": "Retourner un article ou plusieurs",
+        "score": 0.810934281331802
+      },
+      {
+        "document": "returns",
+        "section": "Remboursement après un retour",
+        "score": 0.808154657103343
+      },
+      {
+        "document": "returns",
+        "section": "État requis pour un retour",
+        "score": 0.80755379340793
+      },
+      {
+        "document": "returns",
+        "section": "Délai de retour",
+        "score": 0.805444053213942
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Points et retours",
+        "score": 0.800748672605499
+      },
+      {
+        "document": "returns",
+        "section": "Si votre retour est refusé",
+        "score": 0.797701103288911
+      }
+    ]
+  },
+  {
+    "id": "Q03",
+    "language": "fr",
+    "category": "direct",
+    "question": "Combien de temps faut-il pour être remboursé ?",
+    "answerable": true,
+    "expected_documents": [
+      "refunds"
+    ],
+    "expected_answer": "Within 5 to 10 business days after the parcel is received.",
+    "hits": [
+      {
+        "document": "refunds",
+        "section": "Début du délai de remboursement",
+        "score": 0.829556853059222
+      },
+      {
+        "document": "refunds",
+        "section": "Remboursement non reçu",
+        "score": 0.829203058711072
+      },
+      {
+        "document": "refunds",
+        "section": "Délai de remboursement",
+        "score": 0.828405396545953
+      },
+      {
+        "document": "returns",
+        "section": "Remboursement après un retour",
+        "score": 0.81868094778764
+      },
+      {
+        "document": "contact-hours",
+        "section": "Délai de réponse",
+        "score": 0.797308051671981
+      },
+      {
+        "document": "refunds",
+        "section": "Moyen de remboursement",
+        "score": 0.793107574368316
+      },
+      {
+        "document": "exchanges",
+        "section": "Si vous préférez un remboursement",
+        "score": 0.7857797284603
+      },
+      {
+        "document": "refunds",
+        "section": "Remboursement d'une commande payée par carte cadeau",
+        "score": 0.78540003151551
+      }
+    ]
+  },
+  {
+    "id": "Q04",
+    "language": "fr",
+    "category": "direct",
+    "question": "Combien coûte la livraison express ?",
+    "answerable": true,
+    "expected_documents": [
+      "shipping"
+    ],
+    "expected_answer": "7 euros, whatever the amount of the order (express is never free).",
+    "hits": [
+      {
+        "document": "shipping",
+        "section": "Frais de livraison",
+        "score": 0.874577272968637
+      },
+      {
+        "document": "shipping",
+        "section": "Délai de livraison express",
+        "score": 0.853112927333702
+      },
+      {
+        "document": "shipping",
+        "section": "Calcul du seuil de livraison gratuite",
+        "score": 0.812762276974166
+      },
+      {
+        "document": "order-tracking",
+        "section": "Colis en retard",
+        "score": 0.80761632150104
+      },
+      {
+        "document": "shipping",
+        "section": "Choisir l'adresse de livraison",
+        "score": 0.797566080900479
+      },
+      {
+        "document": "shipping",
+        "section": "Délai de livraison standard",
+        "score": 0.796884992814428
+      },
+      {
+        "document": "shipping",
+        "section": "Où nous livrons",
+        "score": 0.796060781199221
+      },
+      {
+        "document": "shipping",
+        "section": "Colis en retard ou perdu",
+        "score": 0.791132173534692
+      }
+    ]
+  },
+  {
+    "id": "Q05",
+    "language": "fr",
+    "category": "direct",
+    "question": "Jusqu'à quand puis-je annuler une commande ?",
+    "answerable": true,
+    "expected_documents": [
+      "cancellations-and-address"
+    ],
+    "expected_answer": "Only while the order is being prepared (status processing). Once shipped, it cannot be cancelled.",
+    "hits": [
+      {
+        "document": "cancellations-and-address",
+        "section": "Si la commande est déjà expédiée",
+        "score": 0.847619350721304
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Quand vous pouvez annuler une commande",
+        "score": 0.840211729758876
+      },
+      {
+        "document": "returns",
+        "section": "Aucun retour avant la livraison",
+        "score": 0.82518389163159
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Quand vous pouvez changer l'adresse de livraison",
+        "score": 0.821937129289985
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Vérifier si votre commande est encore en préparation",
+        "score": 0.813935597726844
+      },
+      {
+        "document": "defective-products",
+        "section": "Délai pour signaler un défaut",
+        "score": 0.811117701535626
+      },
+      {
+        "document": "shipping",
+        "section": "À la livraison de votre commande",
+        "score": 0.809413389660395
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Remboursement après une annulation",
+        "score": 0.8077120356788869
+      }
+    ]
+  },
+  {
+    "id": "Q06",
+    "language": "fr",
+    "category": "direct",
+    "question": "Peut-on échanger un article contre une autre taille ?",
+    "answerable": true,
+    "expected_documents": [
+      "exchanges"
+    ],
+    "expected_answer": "Yes: same item in another size or colour, depending on stock. An advisor handles it; the assistant passes the request as a ticket.",
+    "hits": [
+      {
+        "document": "size-guide",
+        "section": "Si la taille ne convient pas",
+        "score": 0.833972307068502
+      },
+      {
+        "document": "exchanges",
+        "section": "Bien choisir sa taille",
+        "score": 0.827362018630839
+      },
+      {
+        "document": "exchanges",
+        "section": "Ce qu'est un échange",
+        "score": 0.82622544075128
+      },
+      {
+        "document": "exchanges",
+        "section": "Conditions d'un échange",
+        "score": 0.81095705432329
+      },
+      {
+        "document": "exchanges",
+        "section": "Disponibilité",
+        "score": 0.801803796992135
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Modifications partielles",
+        "score": 0.799878523068322
+      },
+      {
+        "document": "exchanges",
+        "section": "Pas d'échange avant la livraison",
+        "score": 0.794690072338361
+      },
+      {
+        "document": "exchanges",
+        "section": "Comment demander un échange",
+        "score": 0.793293512096708
+      }
+    ]
+  },
+  {
+    "id": "Q07",
+    "language": "fr",
+    "category": "direct",
+    "question": "Quels articles ne peuvent pas être retournés ?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "Underwear and swimwear, for hygiene reasons.",
+    "hits": [
+      {
+        "document": "returns",
+        "section": "Articles non retournables",
+        "score": 0.868414432662406
+      },
+      {
+        "document": "returns",
+        "section": "État requis pour un retour",
+        "score": 0.85813646375197
+      },
+      {
+        "document": "returns",
+        "section": "Retourner un article ou plusieurs",
+        "score": 0.842587240915971
+      },
+      {
+        "document": "refunds",
+        "section": "Quels articles sont remboursés",
+        "score": 0.840546313314716
+      },
+      {
+        "document": "returns",
+        "section": "Aucun retour avant la livraison",
+        "score": 0.8338598561903
+      },
+      {
+        "document": "returns",
+        "section": "Délai de retour",
+        "score": 0.833037086774023
+      },
+      {
+        "document": "returns",
+        "section": "Si votre retour est refusé",
+        "score": 0.832784504461517
+      },
+      {
+        "document": "defective-products",
+        "section": "Exception à la condition « non porté »",
+        "score": 0.830012650372557
+      }
+    ]
+  },
+  {
+    "id": "Q08",
+    "language": "en",
+    "category": "direct",
+    "question": "How long does standard delivery take?",
+    "answerable": true,
+    "expected_documents": [
+      "shipping"
+    ],
+    "expected_answer": "3 to 5 business days.",
+    "hits": [
+      {
+        "document": "shipping",
+        "section": "Standard delivery time",
+        "score": 0.832758127335383
+      },
+      {
+        "document": "shipping",
+        "section": "Express delivery time",
+        "score": 0.784747594405893
+      },
+      {
+        "document": "shipping",
+        "section": "Late or lost parcels",
+        "score": 0.783575894905592
+      },
+      {
+        "document": "order-tracking",
+        "section": "Parcel late",
+        "score": 0.767304701547136
+      },
+      {
+        "document": "returns",
+        "section": "Return deadline",
+        "score": 0.755334765799607
+      },
+      {
+        "document": "shipping",
+        "section": "Delivery costs",
+        "score": 0.744968635273215
+      },
+      {
+        "document": "refunds",
+        "section": "When the refund period starts",
+        "score": 0.731322309056283
+      },
+      {
+        "document": "contact-hours",
+        "section": "Response time",
+        "score": 0.731160532421371
+      }
+    ]
+  },
+  {
+    "id": "Q09",
+    "language": "en",
+    "category": "direct",
+    "question": "From what amount is standard delivery free?",
+    "answerable": true,
+    "expected_documents": [
+      "shipping"
+    ],
+    "expected_answer": "From 50 euros of items, calculated before delivery costs.",
+    "hits": [
+      {
+        "document": "shipping",
+        "section": "Delivery costs",
+        "score": 0.840923363172037
+      },
+      {
+        "document": "shipping",
+        "section": "How the free delivery threshold is calculated",
+        "score": 0.823909215995638
+      },
+      {
+        "document": "shipping",
+        "section": "Standard delivery time",
+        "score": 0.784506007173484
+      },
+      {
+        "document": "shipping",
+        "section": "Late or lost parcels",
+        "score": 0.760875661707541
+      },
+      {
+        "document": "returns",
+        "section": "Return deadline",
+        "score": 0.7572616542756581
+      },
+      {
+        "document": "shipping",
+        "section": "Where we deliver",
+        "score": 0.750658083275
+      },
+      {
+        "document": "shipping",
+        "section": "Express delivery time",
+        "score": 0.7499745340713719
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Loyalty programme",
+        "score": 0.745544313865951
+      }
+    ]
+  },
+  {
+    "id": "Q10",
+    "language": "en",
+    "category": "direct",
+    "question": "In what condition must an item be to be returned?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "Unworn, with its tags attached, and in its original packaging.",
+    "hits": [
+      {
+        "document": "returns",
+        "section": "Condition required for a return",
+        "score": 0.847739139547993
+      },
+      {
+        "document": "defective-products",
+        "section": "Exception to the unworn condition",
+        "score": 0.812346438672769
+      },
+      {
+        "document": "garment-care",
+        "section": "Care and returns",
+        "score": 0.804561661339508
+      },
+      {
+        "document": "returns",
+        "section": "Items that cannot be returned",
+        "score": 0.797899294618762
+      },
+      {
+        "document": "returns",
+        "section": "If your return is refused",
+        "score": 0.796770500633263
+      },
+      {
+        "document": "exchanges",
+        "section": "Conditions for an exchange",
+        "score": 0.793311151893595
+      },
+      {
+        "document": "returns",
+        "section": "Returning one item or several",
+        "score": 0.7872184464304119
+      },
+      {
+        "document": "order-tracking",
+        "section": "Damaged parcel or item",
+        "score": 0.783932098731335
+      }
+    ]
+  },
+  {
+    "id": "Q11",
+    "language": "en",
+    "category": "direct",
+    "question": "Which payment method is used for refunds?",
+    "answerable": true,
+    "expected_documents": [
+      "refunds"
+    ],
+    "expected_answer": "The payment method used for the order.",
+    "hits": [
+      {
+        "document": "payment-methods",
+        "section": "Refunds and payment methods",
+        "score": 0.885107483197532
+      },
+      {
+        "document": "refunds",
+        "section": "Refund method",
+        "score": 0.856639125229104
+      },
+      {
+        "document": "returns",
+        "section": "Refund after a return",
+        "score": 0.81074670334038
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Refund after a cancellation",
+        "score": 0.80561060892465
+      },
+      {
+        "document": "refunds",
+        "section": "Refund of an order paid with a gift card",
+        "score": 0.803824140318082
+      },
+      {
+        "document": "exchanges",
+        "section": "If you prefer a refund",
+        "score": 0.798706343297324
+      },
+      {
+        "document": "gift-cards",
+        "section": "Refund of an order paid with a gift card",
+        "score": 0.793466733348036
+      },
+      {
+        "document": "payment-methods",
+        "section": "Payment refused",
+        "score": 0.785181393618961
+      }
+    ]
+  },
+  {
+    "id": "Q12",
+    "language": "en",
+    "category": "direct",
+    "question": "Can I change my delivery address?",
+    "answerable": true,
+    "expected_documents": [
+      "cancellations-and-address"
+    ],
+    "expected_answer": "Only while the order is being prepared (status processing). After shipping it cannot be changed. The assistant cannot modify an order itself; it passes the request to an advisor.",
+    "hits": [
+      {
+        "document": "cancellations-and-address",
+        "section": "When you can change the delivery address",
+        "score": 0.826144942585773
+      },
+      {
+        "document": "shipping",
+        "section": "Choosing the delivery address",
+        "score": 0.8233973433052559
+      },
+      {
+        "document": "customer-account",
+        "section": "Changing your details",
+        "score": 0.78476226590007
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "If the order has already shipped",
+        "score": 0.769410703161056
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "What to tell the assistant",
+        "score": 0.765129089825384
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Partial changes",
+        "score": 0.7613562388394111
+      },
+      {
+        "document": "exchanges",
+        "section": "No exchange before delivery",
+        "score": 0.75562681944411
+      },
+      {
+        "document": "shipping",
+        "section": "Where we deliver",
+        "score": 0.746364267327517
+      }
+    ]
+  },
+  {
+    "id": "Q13",
+    "language": "en",
+    "category": "direct",
+    "question": "How do I request a return?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "Ask the assistant: it checks the item is eligible, asks for confirmation, then submits the request. An advisor then approves or refuses it.",
+    "hits": [
+      {
+        "document": "returns",
+        "section": "How to request a return",
+        "score": 0.78994848659186
+      },
+      {
+        "document": "returns",
+        "section": "No return before delivery",
+        "score": 0.764249294888294
+      },
+      {
+        "document": "returns",
+        "section": "Returning one item or several",
+        "score": 0.751298982596641
+      },
+      {
+        "document": "returns",
+        "section": "If your return is refused",
+        "score": 0.7487721020065661
+      },
+      {
+        "document": "returns",
+        "section": "Return shipping",
+        "score": 0.747014780899562
+      },
+      {
+        "document": "returns",
+        "section": "What happens after your request",
+        "score": 0.740982056877149
+      },
+      {
+        "document": "returns",
+        "section": "Return deadline",
+        "score": 0.739949043039385
+      },
+      {
+        "document": "size-guide",
+        "section": "If the size is wrong",
+        "score": 0.73936816032565
+      }
+    ]
+  },
+  {
+    "id": "Q14",
+    "language": "en",
+    "category": "direct",
+    "question": "Can I send back just one item from an order?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "Yes. Each item is returned separately, and only one return request can be made per item.",
+    "hits": [
+      {
+        "document": "returns",
+        "section": "Returning one item or several",
+        "score": 0.764346221124566
+      },
+      {
+        "document": "refunds",
+        "section": "Which items are refunded",
+        "score": 0.748003852106778
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Partial changes",
+        "score": 0.713653308217252
+      },
+      {
+        "document": "order-tracking",
+        "section": "Damaged parcel or item",
+        "score": 0.710358522171875
+      },
+      {
+        "document": "returns",
+        "section": "How to request a return",
+        "score": 0.703559211171354
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "If the order has already shipped",
+        "score": 0.699802173772804
+      },
+      {
+        "document": "returns",
+        "section": "No return before delivery",
+        "score": 0.6991996281346711
+      },
+      {
+        "document": "order-tracking",
+        "section": "Missing item in the parcel",
+        "score": 0.6961495530095649
+      }
+    ]
+  },
+  {
+    "id": "Q15",
+    "language": "fr",
+    "category": "reformulated",
+    "question": "je peux renvoyer mes baskets apres 3 semaines ?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "Yes if it is within 30 days of delivery (3 weeks is within the delay) and the shoes are unworn, with tags and original packaging.",
+    "hits": [
+      {
+        "document": "returns",
+        "section": "Délai de retour",
+        "score": 0.7706609293250131
+      },
+      {
+        "document": "size-guide",
+        "section": "Si la taille ne convient pas",
+        "score": 0.7650919959290721
+      },
+      {
+        "document": "shipping",
+        "section": "À la livraison de votre commande",
+        "score": 0.762687723670592
+      },
+      {
+        "document": "returns",
+        "section": "Aucun retour avant la livraison",
+        "score": 0.757563941511255
+      },
+      {
+        "document": "defective-products",
+        "section": "Exception à la condition « non porté »",
+        "score": 0.7574542970682789
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Si la commande est déjà expédiée",
+        "score": 0.757036762702946
+      },
+      {
+        "document": "refunds",
+        "section": "Début du délai de remboursement",
+        "score": 0.754977318498843
+      },
+      {
+        "document": "returns",
+        "section": "Si votre retour est refusé",
+        "score": 0.75109108229474
+      }
+    ]
+  },
+  {
+    "id": "Q16",
+    "language": "fr",
+    "category": "reformulated",
+    "question": "mon colis est parti mais pas encore arrivé, je peux le renvoyer direct ?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "No. An order shipped but not yet delivered cannot be returned until it arrives; then the 30 days start.",
+    "hits": [
+      {
+        "document": "returns",
+        "section": "Aucun retour avant la livraison",
+        "score": 0.836427492689567
+      },
+      {
+        "document": "shipping",
+        "section": "Colis en retard ou perdu",
+        "score": 0.819234792672936
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Si la commande est déjà expédiée",
+        "score": 0.814779927479626
+      },
+      {
+        "document": "returns",
+        "section": "Frais et envoi du retour",
+        "score": 0.807020005747331
+      },
+      {
+        "document": "returns",
+        "section": "Délai de retour",
+        "score": 0.806464003713892
+      },
+      {
+        "document": "returns",
+        "section": "Si votre retour est refusé",
+        "score": 0.804703104517742
+      },
+      {
+        "document": "refunds",
+        "section": "Début du délai de remboursement",
+        "score": 0.803756237347483
+      },
+      {
+        "document": "order-tracking",
+        "section": "Marqué livré mais non reçu",
+        "score": 0.8037125278223161
+      }
+    ]
+  },
+  {
+    "id": "Q17",
+    "language": "fr",
+    "category": "reformulated",
+    "question": "c'est quoi le délai pour avoir mon argent après un retour??",
+    "answerable": true,
+    "expected_documents": [
+      "refunds"
+    ],
+    "expected_answer": "Refund within 5 to 10 business days after the parcel is received (once the return is approved).",
+    "hits": [
+      {
+        "document": "refunds",
+        "section": "Délai de remboursement",
+        "score": 0.843883190646145
+      },
+      {
+        "document": "returns",
+        "section": "Remboursement après un retour",
+        "score": 0.841929989136505
+      },
+      {
+        "document": "refunds",
+        "section": "Début du délai de remboursement",
+        "score": 0.839270927418726
+      },
+      {
+        "document": "refunds",
+        "section": "Remboursement non reçu",
+        "score": 0.8293177301301891
+      },
+      {
+        "document": "returns",
+        "section": "Délai de retour",
+        "score": 0.828609693688409
+      },
+      {
+        "document": "returns",
+        "section": "Aucun retour avant la livraison",
+        "score": 0.8196616632180069
+      },
+      {
+        "document": "shipping",
+        "section": "À la livraison de votre commande",
+        "score": 0.8134945748560269
+      },
+      {
+        "document": "returns",
+        "section": "Ce qui se passe après votre demande",
+        "score": 0.806447430000941
+      }
+    ]
+  },
+  {
+    "id": "Q18",
+    "language": "fr",
+    "category": "reformulated",
+    "question": "jai commandé la mauvaise taille, vous pouvez me mettre la taille au dessus ?",
+    "answerable": true,
+    "expected_documents": [
+      "exchanges"
+    ],
+    "expected_answer": "An exchange for another size is possible depending on stock. An advisor handles it; the assistant passes the request as a ticket and cannot create the exchange itself.",
+    "hits": [
+      {
+        "document": "exchanges",
+        "section": "Bien choisir sa taille",
+        "score": 0.806607002700181
+      },
+      {
+        "document": "size-guide",
+        "section": "Si la taille ne convient pas",
+        "score": 0.800141279426023
+      },
+      {
+        "document": "size-guide",
+        "section": "Tailles des hauts et des vestes",
+        "score": 0.794145737716477
+      },
+      {
+        "document": "size-guide",
+        "section": "Tailles des sous-vêtements et des maillots",
+        "score": 0.7895596683745301
+      },
+      {
+        "document": "size-guide",
+        "section": "Comment prendre vos mesures",
+        "score": 0.788082294363064
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Modifications partielles",
+        "score": 0.783096336762659
+      },
+      {
+        "document": "shipping",
+        "section": "Choisir l'adresse de livraison",
+        "score": 0.780552459360323
+      },
+      {
+        "document": "size-guide",
+        "section": "Entre deux tailles",
+        "score": 0.779663933711685
+      }
+    ]
+  },
+  {
+    "id": "Q19",
+    "language": "fr",
+    "category": "reformulated",
+    "question": "Ma commande est encore en prépa, je peux changer ladresse ?",
+    "answerable": true,
+    "expected_documents": [
+      "cancellations-and-address"
+    ],
+    "expected_answer": "Yes, while the order is being prepared (processing). The assistant cannot modify the order itself; it passes the request to an advisor as a ticket.",
+    "hits": [
+      {
+        "document": "cancellations-and-address",
+        "section": "Quand vous pouvez changer l'adresse de livraison",
+        "score": 0.8580094642189819
+      },
+      {
+        "document": "shipping",
+        "section": "Choisir l'adresse de livraison",
+        "score": 0.847152855320269
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Vérifier si votre commande est encore en préparation",
+        "score": 0.831897463376544
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Si la commande est déjà expédiée",
+        "score": 0.826024939686951
+      },
+      {
+        "document": "order-tracking",
+        "section": "Commande encore en préparation",
+        "score": 0.822406549126644
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Quand vous pouvez annuler une commande",
+        "score": 0.812608810230392
+      },
+      {
+        "document": "customer-account",
+        "section": "Modifier vos informations",
+        "score": 0.812081513482427
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Qui traite ces demandes",
+        "score": 0.810735760535134
+      }
+    ]
+  },
+  {
+    "id": "Q20",
+    "language": "fr",
+    "category": "reformulated",
+    "question": "si ma commande dépasse un peu 50 euros la livraison est offerte ou pas ?",
+    "answerable": true,
+    "expected_documents": [
+      "shipping"
+    ],
+    "expected_answer": "Yes, standard delivery is free from 50 euros of items (express is never free).",
+    "hits": [
+      {
+        "document": "shipping",
+        "section": "Frais de livraison",
+        "score": 0.836558872762401
+      },
+      {
+        "document": "shipping",
+        "section": "Calcul du seuil de livraison gratuite",
+        "score": 0.834270704297338
+      },
+      {
+        "document": "shipping",
+        "section": "Colis en retard ou perdu",
+        "score": 0.794543570714947
+      },
+      {
+        "document": "shipping",
+        "section": "Choisir l'adresse de livraison",
+        "score": 0.784247994020048
+      },
+      {
+        "document": "gift-cards",
+        "section": "Utiliser une carte cadeau avec un autre moyen de paiement",
+        "score": 0.78406868379162
+      },
+      {
+        "document": "returns",
+        "section": "Aucun retour avant la livraison",
+        "score": 0.781109383270988
+      },
+      {
+        "document": "shipping",
+        "section": "À la livraison de votre commande",
+        "score": 0.779357106070786
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Si la commande est déjà expédiée",
+        "score": 0.777566383495017
+      }
+    ]
+  },
+  {
+    "id": "Q21",
+    "language": "fr",
+    "category": "reformulated",
+    "question": "vous reprenez les maillots de bain ?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "No. Swimwear cannot be returned, for hygiene reasons.",
+    "hits": [
+      {
+        "document": "returns",
+        "section": "Articles non retournables",
+        "score": 0.801398452470009
+      },
+      {
+        "document": "size-guide",
+        "section": "Tailles des sous-vêtements et des maillots",
+        "score": 0.786068052484263
+      },
+      {
+        "document": "exchanges",
+        "section": "Conditions d'un échange",
+        "score": 0.7618753672759739
+      },
+      {
+        "document": "garment-care",
+        "section": "Entretien et retours",
+        "score": 0.757272415798022
+      },
+      {
+        "document": "returns",
+        "section": "État requis pour un retour",
+        "score": 0.753668393640736
+      },
+      {
+        "document": "garment-care",
+        "section": "Laine et maille",
+        "score": 0.752336911275867
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Prix soldés",
+        "score": 0.75195637441202
+      },
+      {
+        "document": "size-guide",
+        "section": "Si la taille ne convient pas",
+        "score": 0.75192775370038
+      }
+    ]
+  },
+  {
+    "id": "Q22",
+    "language": "en",
+    "category": "reformulated",
+    "question": "can i send my jumper back if i already wore it once",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "No. Items must be unworn, with tags attached and in the original packaging.",
+    "hits": [
+      {
+        "document": "defective-products",
+        "section": "Exception to the unworn condition",
+        "score": 0.7379186119673979
+      },
+      {
+        "document": "returns",
+        "section": "Condition required for a return",
+        "score": 0.729772568983686
+      },
+      {
+        "document": "garment-care",
+        "section": "Care and returns",
+        "score": 0.728331423054505
+      },
+      {
+        "document": "returns",
+        "section": "Items that cannot be returned",
+        "score": 0.719436111344991
+      },
+      {
+        "document": "size-guide",
+        "section": "If the size is wrong",
+        "score": 0.715211142805777
+      },
+      {
+        "document": "exchanges",
+        "section": "Conditions for an exchange",
+        "score": 0.695990399439399
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "If the order has already shipped",
+        "score": 0.6903972755012431
+      },
+      {
+        "document": "order-tracking",
+        "section": "Damaged parcel or item",
+        "score": 0.67265898976035
+      }
+    ]
+  },
+  {
+    "id": "Q23",
+    "language": "en",
+    "category": "reformulated",
+    "question": "how fast can i get my order if im in a hurry",
+    "answerable": true,
+    "expected_documents": [
+      "shipping"
+    ],
+    "expected_answer": "Express delivery: 1 to 2 business days, for 7 euros.",
+    "hits": [
+      {
+        "document": "shipping",
+        "section": "Express delivery time",
+        "score": 0.7234789025551009
+      },
+      {
+        "document": "order-tracking",
+        "section": "Parcel late",
+        "score": 0.710974982978742
+      },
+      {
+        "document": "shipping",
+        "section": "Late or lost parcels",
+        "score": 0.67524954918695
+      },
+      {
+        "document": "shipping",
+        "section": "Standard delivery time",
+        "score": 0.666447518048203
+      },
+      {
+        "document": "order-tracking",
+        "section": "Order still in preparation",
+        "score": 0.663286646130233
+      },
+      {
+        "document": "order-tracking",
+        "section": "How to track your order",
+        "score": 0.660285074681802
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Checking whether your order is still in preparation",
+        "score": 0.659634298999989
+      },
+      {
+        "document": "contact-hours",
+        "section": "Information to prepare",
+        "score": 0.658467188827432
+      }
+    ]
+  },
+  {
+    "id": "Q24",
+    "language": "en",
+    "category": "reformulated",
+    "question": "you received my parcel 3 weeks ago and i still havent been refunded",
+    "answerable": true,
+    "expected_documents": [
+      "refunds"
+    ],
+    "expected_answer": "Refunds are issued within 5 to 10 business days after receipt; more than 10 business days have passed, so the assistant can pass the case to an advisor.",
+    "hits": [
+      {
+        "document": "refunds",
+        "section": "Refund not received",
+        "score": 0.818522706673585
+      },
+      {
+        "document": "refunds",
+        "section": "Refund timing",
+        "score": 0.793805167937305
+      },
+      {
+        "document": "refunds",
+        "section": "When the refund period starts",
+        "score": 0.775726994010407
+      },
+      {
+        "document": "shipping",
+        "section": "Late or lost parcels",
+        "score": 0.7544186552319441
+      },
+      {
+        "document": "returns",
+        "section": "Refund after a return",
+        "score": 0.747572081778823
+      },
+      {
+        "document": "order-tracking",
+        "section": "Marked delivered but not received",
+        "score": 0.743679225589112
+      },
+      {
+        "document": "order-tracking",
+        "section": "Damaged parcel or item",
+        "score": 0.741613125233218
+      },
+      {
+        "document": "refunds",
+        "section": "Return approval is not the refund",
+        "score": 0.7392750768173459
+      }
+    ]
+  },
+  {
+    "id": "Q25",
+    "language": "en",
+    "category": "reformulated",
+    "question": "can i swap my blue shirt for the same one in black",
+    "answerable": true,
+    "expected_documents": [
+      "exchanges"
+    ],
+    "expected_answer": "Yes, the same item in another colour, depending on stock. An advisor handles it; the assistant passes the request as a ticket.",
+    "hits": [
+      {
+        "document": "size-guide",
+        "section": "If the size is wrong",
+        "score": 0.6728423984595511
+      },
+      {
+        "document": "exchanges",
+        "section": "Conditions for an exchange",
+        "score": 0.671931522956061
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Partial changes",
+        "score": 0.6681229058254841
+      },
+      {
+        "document": "exchanges",
+        "section": "Availability",
+        "score": 0.6649313730680859
+      },
+      {
+        "document": "exchanges",
+        "section": "How to request an exchange",
+        "score": 0.660057072529432
+      },
+      {
+        "document": "exchanges",
+        "section": "What an exchange is",
+        "score": 0.656073241118715
+      },
+      {
+        "document": "exchanges",
+        "section": "Choosing the right size",
+        "score": 0.65174865047244
+      },
+      {
+        "document": "exchanges",
+        "section": "If you prefer a refund",
+        "score": 0.649737224311083
+      }
+    ]
+  },
+  {
+    "id": "Q26",
+    "language": "en",
+    "category": "reformulated",
+    "question": "do i pay for sending stuff back?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "No, returns are free. A prepaid label is sent by email once the request is approved.",
+    "hits": [
+      {
+        "document": "defective-products",
+        "section": "Costs",
+        "score": 0.751101386413924
+      },
+      {
+        "document": "returns",
+        "section": "Return shipping",
+        "score": 0.7445367417480859
+      },
+      {
+        "document": "refunds",
+        "section": "Return approval is not the refund",
+        "score": 0.6816341402949759
+      },
+      {
+        "document": "exchanges",
+        "section": "If you prefer a refund",
+        "score": 0.680725541258005
+      },
+      {
+        "document": "returns",
+        "section": "How to request a return",
+        "score": 0.679202882606753
+      },
+      {
+        "document": "returns",
+        "section": "Refund after a return",
+        "score": 0.6778514105230891
+      },
+      {
+        "document": "shipping",
+        "section": "Delivery costs",
+        "score": 0.67671336461588
+      },
+      {
+        "document": "refunds",
+        "section": "When the refund period starts",
+        "score": 0.676597305123724
+      }
+    ]
+  },
+  {
+    "id": "Q27",
+    "language": "en",
+    "category": "reformulated",
+    "question": "can i still cancel my order, it says shipped",
+    "answerable": true,
+    "expected_documents": [
+      "cancellations-and-address"
+    ],
+    "expected_answer": "No. A shipped order cannot be cancelled. Once delivered, items can be returned within 30 days.",
+    "hits": [
+      {
+        "document": "cancellations-and-address",
+        "section": "If the order has already shipped",
+        "score": 0.786683375285666
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "When you can cancel an order",
+        "score": 0.777783632543109
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Checking whether your order is still in preparation",
+        "score": 0.753643258707282
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "When you can change the delivery address",
+        "score": 0.749137187268702
+      },
+      {
+        "document": "order-tracking",
+        "section": "Order still in preparation",
+        "score": 0.73653037399103
+      },
+      {
+        "document": "shipping",
+        "section": "Choosing the delivery address",
+        "score": 0.7207194712130041
+      },
+      {
+        "document": "shipping",
+        "section": "Order statuses",
+        "score": 0.711571503413982
+      },
+      {
+        "document": "returns",
+        "section": "No return before delivery",
+        "score": 0.709986571642047
+      }
+    ]
+  },
+  {
+    "id": "Q28",
+    "language": "en",
+    "category": "reformulated",
+    "question": "my order says processing, what does that mean?",
+    "answerable": true,
+    "expected_documents": [
+      "shipping"
+    ],
+    "expected_answer": "Processing means the order is being prepared (before shipping). While processing it can still be cancelled or its address changed.",
+    "hits": [
+      {
+        "document": "order-tracking",
+        "section": "Meaning of the statuses",
+        "score": 0.8414558377792261
+      },
+      {
+        "document": "order-tracking",
+        "section": "Order still in preparation",
+        "score": 0.837728941640257
+      },
+      {
+        "document": "shipping",
+        "section": "Order statuses",
+        "score": 0.823834844505112
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Checking whether your order is still in preparation",
+        "score": 0.789957674967939
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "When you can cancel an order",
+        "score": 0.7664596765912219
+      },
+      {
+        "document": "refunds",
+        "section": "Return approval is not the refund",
+        "score": 0.7472519201850281
+      },
+      {
+        "document": "payment-methods",
+        "section": "When you are charged",
+        "score": 0.7440553795864471
+      },
+      {
+        "document": "order-tracking",
+        "section": "How to track your order",
+        "score": 0.742102105781786
+      }
+    ]
+  },
+  {
+    "id": "Q29",
+    "language": "fr",
+    "category": "cross",
+    "question": "Ma commande vient d'être expédiée mais je veux la retourner, comment faire ?",
+    "answerable": true,
+    "expected_documents": [
+      "cancellations-and-address",
+      "returns"
+    ],
+    "expected_answer": "A shipped order cannot be cancelled and cannot be returned before delivery. Once delivered, the items can be returned within 30 days under the return conditions.",
+    "hits": [
+      {
+        "document": "returns",
+        "section": "Aucun retour avant la livraison",
+        "score": 0.853122747060572
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Si la commande est déjà expédiée",
+        "score": 0.847198581260706
+      },
+      {
+        "document": "returns",
+        "section": "Comment demander un retour",
+        "score": 0.843186628538427
+      },
+      {
+        "document": "returns",
+        "section": "Retourner un article ou plusieurs",
+        "score": 0.835385575360575
+      },
+      {
+        "document": "returns",
+        "section": "Délai de retour",
+        "score": 0.8342874910952089
+      },
+      {
+        "document": "returns",
+        "section": "Frais et envoi du retour",
+        "score": 0.832963194407224
+      },
+      {
+        "document": "shipping",
+        "section": "À la livraison de votre commande",
+        "score": 0.825834878868885
+      },
+      {
+        "document": "returns",
+        "section": "État requis pour un retour",
+        "score": 0.823960176959343
+      }
+    ]
+  },
+  {
+    "id": "Q30",
+    "language": "fr",
+    "category": "cross",
+    "question": "Si je retourne un article, est-ce que je reçois l'étiquette avant de l'envoyer et quand serai-je remboursé ?",
+    "answerable": true,
+    "expected_documents": [
+      "returns",
+      "refunds"
+    ],
+    "expected_answer": "The prepaid label is sent by email once the return request is approved. The refund comes 5 to 10 business days after the parcel is received.",
+    "hits": [
+      {
+        "document": "returns",
+        "section": "Remboursement après un retour",
+        "score": 0.882816011322985
+      },
+      {
+        "document": "returns",
+        "section": "Frais et envoi du retour",
+        "score": 0.882712953473012
+      },
+      {
+        "document": "returns",
+        "section": "État requis pour un retour",
+        "score": 0.8823891312446019
+      },
+      {
+        "document": "refunds",
+        "section": "Quels articles sont remboursés",
+        "score": 0.870194560254104
+      },
+      {
+        "document": "returns",
+        "section": "Retourner un article ou plusieurs",
+        "score": 0.866500664379998
+      },
+      {
+        "document": "refunds",
+        "section": "L'approbation d'un retour n'est pas le remboursement",
+        "score": 0.864428180528771
+      },
+      {
+        "document": "returns",
+        "section": "Aucun retour avant la livraison",
+        "score": 0.862236269362173
+      },
+      {
+        "document": "exchanges",
+        "section": "Si vous préférez un remboursement",
+        "score": 0.860605764402782
+      }
+    ]
+  },
+  {
+    "id": "Q31",
+    "language": "fr",
+    "category": "cross",
+    "question": "J'ai annulé ma commande hier et je n'ai toujours pas été remboursé, que faire ?",
+    "answerable": true,
+    "expected_documents": [
+      "refunds",
+      "cancellations-and-address"
+    ],
+    "expected_answer": "The assistant cannot issue refunds itself; it passes the case to an advisor as a ticket.",
+    "hits": [
+      {
+        "document": "cancellations-and-address",
+        "section": "Remboursement après une annulation",
+        "score": 0.844609985878946
+      },
+      {
+        "document": "refunds",
+        "section": "Remboursement non reçu",
+        "score": 0.836747334443023
+      },
+      {
+        "document": "refunds",
+        "section": "Problèmes de paiement",
+        "score": 0.826067523006935
+      },
+      {
+        "document": "refunds",
+        "section": "Moyen de remboursement",
+        "score": 0.8254683712320801
+      },
+      {
+        "document": "refunds",
+        "section": "Remboursement d'une commande payée par carte cadeau",
+        "score": 0.817271716905521
+      },
+      {
+        "document": "returns",
+        "section": "Aucun retour avant la livraison",
+        "score": 0.817048410788128
+      },
+      {
+        "document": "refunds",
+        "section": "Délai de remboursement",
+        "score": 0.815938253951804
+      },
+      {
+        "document": "refunds",
+        "section": "Début du délai de remboursement",
+        "score": 0.8147269005989259
+      }
+    ]
+  },
+  {
+    "id": "Q32",
+    "language": "fr",
+    "category": "cross",
+    "question": "Je préfère être remboursé plutôt qu'échanger ma robe, c'est possible ?",
+    "answerable": true,
+    "expected_documents": [
+      "exchanges",
+      "returns"
+    ],
+    "expected_answer": "Yes, a return can be requested instead of an exchange, under the return conditions and delay (30 days after delivery).",
+    "hits": [
+      {
+        "document": "exchanges",
+        "section": "Si vous préférez un remboursement",
+        "score": 0.854965670523775
+      },
+      {
+        "document": "returns",
+        "section": "Remboursement après un retour",
+        "score": 0.820718517835334
+      },
+      {
+        "document": "refunds",
+        "section": "Moyen de remboursement",
+        "score": 0.820316191009836
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Remboursement des commandes remisées",
+        "score": 0.820040368411458
+      },
+      {
+        "document": "refunds",
+        "section": "L'approbation d'un retour n'est pas le remboursement",
+        "score": 0.818805981273327
+      },
+      {
+        "document": "size-guide",
+        "section": "Si la taille ne convient pas",
+        "score": 0.814600290112974
+      },
+      {
+        "document": "refunds",
+        "section": "Quels articles sont remboursés",
+        "score": 0.814540773440231
+      },
+      {
+        "document": "refunds",
+        "section": "Remboursement d'une commande payée par carte cadeau",
+        "score": 0.811657013828053
+      }
+    ]
+  },
+  {
+    "id": "Q33",
+    "language": "en",
+    "category": "cross",
+    "question": "My order has been delivered. Can I still change the address or cancel it?",
+    "answerable": true,
+    "expected_documents": [
+      "cancellations-and-address",
+      "returns"
+    ],
+    "expected_answer": "No, cancellation and address changes are only possible while the order is being prepared. Items can still be returned within 30 days of delivery.",
+    "hits": [
+      {
+        "document": "cancellations-and-address",
+        "section": "When you can change the delivery address",
+        "score": 0.8513855976150639
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "If the order has already shipped",
+        "score": 0.845036542327469
+      },
+      {
+        "document": "shipping",
+        "section": "Choosing the delivery address",
+        "score": 0.827135945712896
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "What to tell the assistant",
+        "score": 0.808957132793335
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "When you can cancel an order",
+        "score": 0.804319377288495
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Partial changes",
+        "score": 0.8034798197987401
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Checking whether your order is still in preparation",
+        "score": 0.802137980717928
+      },
+      {
+        "document": "exchanges",
+        "section": "No exchange before delivery",
+        "score": 0.789256335859195
+      }
+    ]
+  },
+  {
+    "id": "Q34",
+    "language": "en",
+    "category": "cross",
+    "question": "If my return is refused, what can I do and will I still be refunded?",
+    "answerable": true,
+    "expected_documents": [
+      "returns",
+      "refunds"
+    ],
+    "expected_answer": "If the customer disagrees, the assistant can pass the case to an advisor for review. A refund is issued only after a return is approved and the parcel received.",
+    "hits": [
+      {
+        "document": "returns",
+        "section": "If your return is refused",
+        "score": 0.831517889556258
+      },
+      {
+        "document": "returns",
+        "section": "Refund after a return",
+        "score": 0.7706289919978759
+      },
+      {
+        "document": "refunds",
+        "section": "Return approval is not the refund",
+        "score": 0.768816901339133
+      },
+      {
+        "document": "refunds",
+        "section": "Which items are refunded",
+        "score": 0.7648368525671541
+      },
+      {
+        "document": "exchanges",
+        "section": "If you prefer a refund",
+        "score": 0.76433299024057
+      },
+      {
+        "document": "payment-methods",
+        "section": "Payment refused",
+        "score": 0.762870126801398
+      },
+      {
+        "document": "refunds",
+        "section": "Refund not received",
+        "score": 0.759246388199126
+      },
+      {
+        "document": "returns",
+        "section": "What happens after your request",
+        "score": 0.757501014343412
+      }
+    ]
+  },
+  {
+    "id": "Q35",
+    "language": "en",
+    "category": "cross",
+    "question": "I ordered two items totalling 45 euros with standard delivery. How much is delivery, and can I return just one of them later?",
+    "answerable": true,
+    "expected_documents": [
+      "shipping",
+      "returns"
+    ],
+    "expected_answer": "Standard delivery costs 4.90 euros (under 50 euros). Yes, one item can be returned on its own within 30 days of delivery.",
+    "hits": [
+      {
+        "document": "shipping",
+        "section": "Delivery costs",
+        "score": 0.862057270933536
+      },
+      {
+        "document": "returns",
+        "section": "Return deadline",
+        "score": 0.849474347288866
+      },
+      {
+        "document": "shipping",
+        "section": "How the free delivery threshold is calculated",
+        "score": 0.8300106165447501
+      },
+      {
+        "document": "returns",
+        "section": "No return before delivery",
+        "score": 0.824335816031665
+      },
+      {
+        "document": "shipping",
+        "section": "When your order is delivered",
+        "score": 0.822077080963667
+      },
+      {
+        "document": "returns",
+        "section": "How to request a return",
+        "score": 0.820146026844917
+      },
+      {
+        "document": "returns",
+        "section": "Returning one item or several",
+        "score": 0.816275826482576
+      },
+      {
+        "document": "shipping",
+        "section": "Standard delivery time",
+        "score": 0.812732314365909
+      }
+    ]
+  },
+  {
+    "id": "Q36",
+    "language": "en",
+    "category": "cross",
+    "question": "I want to cancel my order and get my money back, how does it work?",
+    "answerable": true,
+    "expected_documents": [
+      "cancellations-and-address",
+      "refunds"
+    ],
+    "expected_answer": "Cancellation is only possible while the order is processing; the assistant passes the request to an advisor as a ticket, and a missing refund after a cancellation is also passed to an advisor.",
+    "hits": [
+      {
+        "document": "cancellations-and-address",
+        "section": "Refund after a cancellation",
+        "score": 0.787674412187069
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "When you can cancel an order",
+        "score": 0.7783762471026601
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "If the order has already shipped",
+        "score": 0.771368501019265
+      },
+      {
+        "document": "returns",
+        "section": "No return before delivery",
+        "score": 0.760281184006862
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Checking whether your order is still in preparation",
+        "score": 0.757133477302763
+      },
+      {
+        "document": "refunds",
+        "section": "Refund method",
+        "score": 0.754542270075199
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "What to tell the assistant",
+        "score": 0.75426058912103
+      },
+      {
+        "document": "refunds",
+        "section": "Payment problems",
+        "score": 0.751001874546503
+      }
+    ]
+  },
+  {
+    "id": "Q37",
+    "language": "fr",
+    "category": "application",
+    "question": "Mon panier fait 49,90 €. Combien je paie la livraison standard ?",
+    "answerable": true,
+    "expected_documents": [
+      "shipping"
+    ],
+    "expected_answer": "4.90 euros, because the items total is under 50 euros.",
+    "hits": [
+      {
+        "document": "shipping",
+        "section": "Frais de livraison",
+        "score": 0.85727179460312
+      },
+      {
+        "document": "shipping",
+        "section": "Calcul du seuil de livraison gratuite",
+        "score": 0.816823534714363
+      },
+      {
+        "document": "shipping",
+        "section": "Délai de livraison standard",
+        "score": 0.800749500111286
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Utiliser vos points",
+        "score": 0.781826142092699
+      },
+      {
+        "document": "shipping",
+        "section": "Choisir l'adresse de livraison",
+        "score": 0.7773028203446299
+      },
+      {
+        "document": "shipping",
+        "section": "Délai de livraison express",
+        "score": 0.776466215839981
+      },
+      {
+        "document": "shipping",
+        "section": "Où nous livrons",
+        "score": 0.776370187047605
+      },
+      {
+        "document": "order-tracking",
+        "section": "Colis en retard",
+        "score": 0.774684115408108
+      }
+    ]
+  },
+  {
+    "id": "Q38",
+    "language": "fr",
+    "category": "application",
+    "question": "J'ai commandé pour 50,00 € d'articles, la livraison standard est-elle gratuite ?",
+    "answerable": true,
+    "expected_documents": [
+      "shipping"
+    ],
+    "expected_answer": "Yes. An order of exactly 50.00 euros in items qualifies for free standard delivery.",
+    "hits": [
+      {
+        "document": "shipping",
+        "section": "Frais de livraison",
+        "score": 0.884301229067618
+      },
+      {
+        "document": "shipping",
+        "section": "Calcul du seuil de livraison gratuite",
+        "score": 0.858384854299724
+      },
+      {
+        "document": "shipping",
+        "section": "Délai de livraison standard",
+        "score": 0.815828571576809
+      },
+      {
+        "document": "shipping",
+        "section": "Colis en retard ou perdu",
+        "score": 0.815649384086209
+      },
+      {
+        "document": "returns",
+        "section": "Frais et envoi du retour",
+        "score": 0.804569692363919
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Si la commande est déjà expédiée",
+        "score": 0.8034929385929019
+      },
+      {
+        "document": "order-tracking",
+        "section": "Colis en retard",
+        "score": 0.802595651081106
+      },
+      {
+        "document": "shipping",
+        "section": "À la livraison de votre commande",
+        "score": 0.799893389752086
+      }
+    ]
+  },
+  {
+    "id": "Q39",
+    "language": "fr",
+    "category": "application",
+    "question": "J'ai reçu ma commande il y a 40 jours, puis-je encore retourner un article ?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "No. The return period is 30 days after delivery, and 40 days have passed.",
+    "hits": [
+      {
+        "document": "returns",
+        "section": "Délai de retour",
+        "score": 0.857757751959014
+      },
+      {
+        "document": "returns",
+        "section": "Aucun retour avant la livraison",
+        "score": 0.837945658478125
+      },
+      {
+        "document": "size-guide",
+        "section": "Si la taille ne convient pas",
+        "score": 0.837614415094775
+      },
+      {
+        "document": "shipping",
+        "section": "À la livraison de votre commande",
+        "score": 0.835073895401117
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Si la commande est déjà expédiée",
+        "score": 0.833051231422046
+      },
+      {
+        "document": "returns",
+        "section": "Articles non retournables",
+        "score": 0.827426359650247
+      },
+      {
+        "document": "returns",
+        "section": "Retourner un article ou plusieurs",
+        "score": 0.824422544216571
+      },
+      {
+        "document": "returns",
+        "section": "État requis pour un retour",
+        "score": 0.824399037082467
+      }
+    ]
+  },
+  {
+    "id": "Q40",
+    "language": "fr",
+    "category": "application",
+    "question": "J'ai reçu ma commande il y a 28 jours, combien de temps me reste-t-il pour retourner un article ?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "2 days left (30-day period from the delivery date).",
+    "hits": [
+      {
+        "document": "returns",
+        "section": "Délai de retour",
+        "score": 0.892991980882562
+      },
+      {
+        "document": "shipping",
+        "section": "À la livraison de votre commande",
+        "score": 0.868665290350781
+      },
+      {
+        "document": "refunds",
+        "section": "Début du délai de remboursement",
+        "score": 0.866312876764075
+      },
+      {
+        "document": "returns",
+        "section": "Aucun retour avant la livraison",
+        "score": 0.857866999208163
+      },
+      {
+        "document": "size-guide",
+        "section": "Si la taille ne convient pas",
+        "score": 0.85702807914255
+      },
+      {
+        "document": "refunds",
+        "section": "Délai de remboursement",
+        "score": 0.8504778322300119
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Si la commande est déjà expédiée",
+        "score": 0.847109426453749
+      },
+      {
+        "document": "defective-products",
+        "section": "Délai pour signaler un défaut",
+        "score": 0.846013158233712
+      }
+    ]
+  },
+  {
+    "id": "Q41",
+    "language": "fr",
+    "category": "application",
+    "question": "Je commande pour 30 € et je veux l'express, combien je paie en livraison ?",
+    "answerable": true,
+    "expected_documents": [
+      "shipping"
+    ],
+    "expected_answer": "7 euros (express costs 7 euros whatever the amount).",
+    "hits": [
+      {
+        "document": "shipping",
+        "section": "Frais de livraison",
+        "score": 0.876572895099484
+      },
+      {
+        "document": "shipping",
+        "section": "Délai de livraison express",
+        "score": 0.846552781720161
+      },
+      {
+        "document": "shipping",
+        "section": "Calcul du seuil de livraison gratuite",
+        "score": 0.826592134688506
+      },
+      {
+        "document": "order-tracking",
+        "section": "Colis en retard",
+        "score": 0.815941577287541
+      },
+      {
+        "document": "shipping",
+        "section": "À la livraison de votre commande",
+        "score": 0.813980218014834
+      },
+      {
+        "document": "shipping",
+        "section": "Choisir l'adresse de livraison",
+        "score": 0.812396236850666
+      },
+      {
+        "document": "shipping",
+        "section": "Colis en retard ou perdu",
+        "score": 0.803674717042915
+      },
+      {
+        "document": "returns",
+        "section": "Frais et envoi du retour",
+        "score": 0.803663378127973
+      }
+    ]
+  },
+  {
+    "id": "Q42",
+    "language": "en",
+    "category": "application",
+    "question": "My order is worth 80 euros in items. How much is express delivery?",
+    "answerable": true,
+    "expected_documents": [
+      "shipping"
+    ],
+    "expected_answer": "7 euros. Express delivery is never free, even above 50 euros.",
+    "hits": [
+      {
+        "document": "shipping",
+        "section": "Delivery costs",
+        "score": 0.868832023395398
+      },
+      {
+        "document": "shipping",
+        "section": "How the free delivery threshold is calculated",
+        "score": 0.8391225959477779
+      },
+      {
+        "document": "shipping",
+        "section": "Express delivery time",
+        "score": 0.83895323352272
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Using your points",
+        "score": 0.796491211463653
+      },
+      {
+        "document": "order-tracking",
+        "section": "Parcel late",
+        "score": 0.785983230085416
+      },
+      {
+        "document": "shipping",
+        "section": "Standard delivery time",
+        "score": 0.7834360040928781
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Loyalty programme",
+        "score": 0.779521137796467
+      },
+      {
+        "document": "shipping",
+        "section": "Where we deliver",
+        "score": 0.775372624627773
+      }
+    ]
+  },
+  {
+    "id": "Q43",
+    "language": "en",
+    "category": "application",
+    "question": "I received my parcel 12 days ago. Can I still return a pullover I haven't worn?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "Yes, 12 days is within the 30-day period, provided it is unworn with tags and original packaging.",
+    "hits": [
+      {
+        "document": "returns",
+        "section": "Return deadline",
+        "score": 0.812599345258747
+      },
+      {
+        "document": "defective-products",
+        "section": "Exception to the unworn condition",
+        "score": 0.807850094314129
+      },
+      {
+        "document": "returns",
+        "section": "Condition required for a return",
+        "score": 0.8042195889803709
+      },
+      {
+        "document": "size-guide",
+        "section": "If the size is wrong",
+        "score": 0.80235680789294
+      },
+      {
+        "document": "returns",
+        "section": "No return before delivery",
+        "score": 0.795555268425949
+      },
+      {
+        "document": "exchanges",
+        "section": "Conditions for an exchange",
+        "score": 0.794981854715836
+      },
+      {
+        "document": "returns",
+        "section": "Items that cannot be returned",
+        "score": 0.792957385034313
+      },
+      {
+        "document": "garment-care",
+        "section": "Care and returns",
+        "score": 0.792558531974958
+      }
+    ]
+  },
+  {
+    "id": "Q44",
+    "language": "en",
+    "category": "application",
+    "question": "I bought a swimsuit 5 days ago, tags on, never worn. Can I return it?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "No. Swimwear cannot be returned for hygiene reasons, even within the delay.",
+    "hits": [
+      {
+        "document": "returns",
+        "section": "Items that cannot be returned",
+        "score": 0.8238324286162391
+      },
+      {
+        "document": "returns",
+        "section": "Condition required for a return",
+        "score": 0.804308880274451
+      },
+      {
+        "document": "garment-care",
+        "section": "Care and returns",
+        "score": 0.796308049704025
+      },
+      {
+        "document": "exchanges",
+        "section": "Conditions for an exchange",
+        "score": 0.790665987341592
+      },
+      {
+        "document": "defective-products",
+        "section": "Exception to the unworn condition",
+        "score": 0.7840923201019769
+      },
+      {
+        "document": "size-guide",
+        "section": "If the size is wrong",
+        "score": 0.774629916259299
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Sale prices",
+        "score": 0.766958162886856
+      },
+      {
+        "document": "returns",
+        "section": "Return deadline",
+        "score": 0.759977012883802
+      }
+    ]
+  },
+  {
+    "id": "Q45",
+    "language": "en",
+    "category": "application",
+    "question": "You received my parcel 7 business days ago and the refund isn't there yet. Is it late?",
+    "answerable": true,
+    "expected_documents": [
+      "refunds"
+    ],
+    "expected_answer": "Not yet. Refunds are issued within 5 to 10 business days after receipt. After 10 business days the assistant can pass the case to an advisor.",
+    "hits": [
+      {
+        "document": "refunds",
+        "section": "Refund not received",
+        "score": 0.881425489830869
+      },
+      {
+        "document": "refunds",
+        "section": "Refund timing",
+        "score": 0.874280370958331
+      },
+      {
+        "document": "refunds",
+        "section": "When the refund period starts",
+        "score": 0.870855694920593
+      },
+      {
+        "document": "shipping",
+        "section": "Late or lost parcels",
+        "score": 0.837145134224015
+      },
+      {
+        "document": "order-tracking",
+        "section": "Parcel late",
+        "score": 0.82247932900441
+      },
+      {
+        "document": "shipping",
+        "section": "Standard delivery time",
+        "score": 0.805330053437042
+      },
+      {
+        "document": "contact-hours",
+        "section": "Response time",
+        "score": 0.796781321535723
+      },
+      {
+        "document": "shipping",
+        "section": "Express delivery time",
+        "score": 0.795716764138203
+      }
+    ]
+  },
+  {
+    "id": "Q46",
+    "language": "en",
+    "category": "application",
+    "question": "My order is currently shipped. Can you change the delivery address?",
+    "answerable": true,
+    "expected_documents": [
+      "cancellations-and-address"
+    ],
+    "expected_answer": "No. The address can only be changed while the order is being prepared (processing).",
+    "hits": [
+      {
+        "document": "cancellations-and-address",
+        "section": "When you can change the delivery address",
+        "score": 0.869964041668258
+      },
+      {
+        "document": "shipping",
+        "section": "Choosing the delivery address",
+        "score": 0.863761081747927
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "If the order has already shipped",
+        "score": 0.844224373830464
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "What to tell the assistant",
+        "score": 0.806596757413963
+      },
+      {
+        "document": "customer-account",
+        "section": "Changing your details",
+        "score": 0.804867448537074
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "When you can cancel an order",
+        "score": 0.801913634841086
+      },
+      {
+        "document": "exchanges",
+        "section": "No exchange before delivery",
+        "score": 0.801911914503243
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Checking whether your order is still in preparation",
+        "score": 0.798235095565441
+      }
+    ]
+  },
+  {
+    "id": "Q47",
+    "language": "fr",
+    "category": "direct",
+    "question": "Avez-vous un code promo pour une première commande ?",
+    "answerable": true,
+    "expected_documents": [
+      "promotions-loyalty"
+    ],
+    "expected_answer": "Yes: new customers receive a welcome promo code by email after creating an account. It has its own conditions and expiry date, and only one promo code can be used per order.",
+    "hits": [
+      {
+        "document": "promotions-loyalty",
+        "section": "Offre de bienvenue",
+        "score": 0.814292733657158
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Codes promo",
+        "score": 0.807906869107782
+      },
+      {
+        "document": "payment-methods",
+        "section": "Utiliser un code promo ou une carte cadeau au paiement",
+        "score": 0.796564222457222
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Utiliser vos points",
+        "score": 0.781472873637588
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Remboursement des commandes remisées",
+        "score": 0.778174666281406
+      },
+      {
+        "document": "gift-cards",
+        "section": "Code perdu ou non reçu",
+        "score": 0.774734531093711
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Programme de fidélité",
+        "score": 0.774018455059462
+      },
+      {
+        "document": "customer-account",
+        "section": "Poser des questions sans compte",
+        "score": 0.769723271319199
+      }
+    ]
+  },
+  {
+    "id": "Q48",
+    "language": "fr",
+    "category": "direct",
+    "question": "Puis-je acheter une carte cadeau ?",
+    "answerable": true,
+    "expected_documents": [
+      "gift-cards"
+    ],
+    "expected_answer": "Yes. Gift cards are available in amounts of 20, 50 and 100 euros, sent by email as a digital code, and valid for 12 months.",
+    "hits": [
+      {
+        "document": "gift-cards",
+        "section": "Ce qu'est une carte cadeau",
+        "score": 0.8160045319091089
+      },
+      {
+        "document": "gift-cards",
+        "section": "Comment vous recevez une carte cadeau",
+        "score": 0.806950140858851
+      },
+      {
+        "document": "gift-cards",
+        "section": "Les cartes cadeaux ne sont ni retournables ni échangeables contre de l'argent",
+        "score": 0.805927370981666
+      },
+      {
+        "document": "gift-cards",
+        "section": "Utiliser une carte cadeau",
+        "score": 0.804993358782509
+      },
+      {
+        "document": "gift-cards",
+        "section": "Utiliser une carte cadeau avec un autre moyen de paiement",
+        "score": 0.804693601657015
+      },
+      {
+        "document": "gift-cards",
+        "section": "Remboursement d'une commande payée par carte cadeau",
+        "score": 0.802831749177361
+      },
+      {
+        "document": "payment-methods",
+        "section": "Utiliser un code promo ou une carte cadeau au paiement",
+        "score": 0.7898504891656379
+      },
+      {
+        "document": "gift-cards",
+        "section": "Validité",
+        "score": 0.789333104924579
+      }
+    ]
+  },
+  {
+    "id": "Q49",
+    "language": "fr",
+    "category": "not_covered",
+    "question": "Avez-vous un magasin physique près de chez moi ?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer.",
+    "hits": [
+      {
+        "document": "shipping",
+        "section": "Où nous livrons",
+        "score": 0.758257330270689
+      },
+      {
+        "document": "shipping",
+        "section": "Choisir l'adresse de livraison",
+        "score": 0.748269261196153
+      },
+      {
+        "document": "exchanges",
+        "section": "Disponibilité",
+        "score": 0.748107224204529
+      },
+      {
+        "document": "order-tracking",
+        "section": "Marqué livré mais non reçu",
+        "score": 0.742674090922101
+      },
+      {
+        "document": "gift-cards",
+        "section": "Comment vous recevez une carte cadeau",
+        "score": 0.738453736837847
+      },
+      {
+        "document": "order-tracking",
+        "section": "Comment suivre votre commande",
+        "score": 0.736903515276055
+      },
+      {
+        "document": "returns",
+        "section": "Aucun retour avant la livraison",
+        "score": 0.7344730495406859
+      },
+      {
+        "document": "size-guide",
+        "section": "Si la taille ne convient pas",
+        "score": 0.733755498662541
+      }
+    ]
+  },
+  {
+    "id": "Q50",
+    "language": "fr",
+    "category": "direct",
+    "question": "Livrez-vous à l'étranger ?",
+    "answerable": true,
+    "expected_documents": [
+      "shipping"
+    ],
+    "expected_answer": "No. The shop delivers only within the country where it operates; international delivery is not offered.",
+    "hits": [
+      {
+        "document": "shipping",
+        "section": "Où nous livrons",
+        "score": 0.7434021640808259
+      },
+      {
+        "document": "shipping",
+        "section": "Choisir l'adresse de livraison",
+        "score": 0.701755182007807
+      },
+      {
+        "document": "customer-account",
+        "section": "Modifier vos informations",
+        "score": 0.693930930351446
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Quand vous pouvez changer l'adresse de livraison",
+        "score": 0.683884676909926
+      },
+      {
+        "document": "shipping",
+        "section": "Calcul du seuil de livraison gratuite",
+        "score": 0.682276932790133
+      },
+      {
+        "document": "returns",
+        "section": "Aucun retour avant la livraison",
+        "score": 0.6812504396366079
+      },
+      {
+        "document": "returns",
+        "section": "Frais et envoi du retour",
+        "score": 0.679878744843901
+      },
+      {
+        "document": "returns",
+        "section": "Retourner un article ou plusieurs",
+        "score": 0.67986772718245
+      }
+    ]
+  },
+  {
+    "id": "Q51",
+    "language": "fr",
+    "category": "direct",
+    "question": "Quels moyens de paiement acceptez-vous ?",
+    "answerable": true,
+    "expected_documents": [
+      "payment-methods"
+    ],
+    "expected_answer": "Bank cards (Visa and Mastercard), PayPal, and mobile wallets such as Apple Pay and Google Pay. Shop gift cards can also be used.",
+    "hits": [
+      {
+        "document": "payment-methods",
+        "section": "Moyens de paiement acceptés",
+        "score": 0.840153060729032
+      },
+      {
+        "document": "payment-methods",
+        "section": "Quand vous êtes débité",
+        "score": 0.813395248660562
+      },
+      {
+        "document": "payment-methods",
+        "section": "Sécurité du paiement",
+        "score": 0.811661512582379
+      },
+      {
+        "document": "payment-methods",
+        "section": "Paiement en plusieurs fois",
+        "score": 0.808379831335336
+      },
+      {
+        "document": "payment-methods",
+        "section": "Paiement refusé",
+        "score": 0.804222234725923
+      },
+      {
+        "document": "payment-methods",
+        "section": "Remboursements et moyens de paiement",
+        "score": 0.798847523412938
+      },
+      {
+        "document": "payment-methods",
+        "section": "Devise",
+        "score": 0.793761485786299
+      },
+      {
+        "document": "privacy",
+        "section": "Données de paiement",
+        "score": 0.789030024151272
+      }
+    ]
+  },
+  {
+    "id": "Q52",
+    "language": "fr",
+    "category": "direct",
+    "question": "Comment dois-je laver un pull en laine ?",
+    "answerable": true,
+    "expected_documents": [
+      "garment-care"
+    ],
+    "expected_answer": "By hand in cold water with a gentle detergent, or on the wool cycle. Do not wring; press the water out and dry flat away from direct heat. The care label comes first.",
+    "hits": [
+      {
+        "document": "garment-care",
+        "section": "Laine et maille",
+        "score": 0.857190976083011
+      },
+      {
+        "document": "garment-care",
+        "section": "Coton et lin",
+        "score": 0.7913196994735741
+      },
+      {
+        "document": "garment-care",
+        "section": "Denim",
+        "score": 0.788497205918815
+      },
+      {
+        "document": "size-guide",
+        "section": "Élasticité et matière",
+        "score": 0.774487895970631
+      },
+      {
+        "document": "garment-care",
+        "section": "Matières synthétiques",
+        "score": 0.7738489465041241
+      },
+      {
+        "document": "garment-care",
+        "section": "Lisez toujours l'étiquette d'entretien",
+        "score": 0.773474394138411
+      },
+      {
+        "document": "garment-care",
+        "section": "Détacher",
+        "score": 0.77278225425554
+      },
+      {
+        "document": "garment-care",
+        "section": "Entretien et retours",
+        "score": 0.772468526175658
+      }
+    ]
+  },
+  {
+    "id": "Q53",
+    "language": "fr",
+    "category": "not_covered",
+    "question": "Quelle taille dois-je choisir si je fais 1,75 m ?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer. The size guide is based on body measurements (chest, waist, hips, foot length), not on height; the assistant must not pick a size from height alone.",
+    "hits": [
+      {
+        "document": "exchanges",
+        "section": "Bien choisir sa taille",
+        "score": 0.808142490208816
+      },
+      {
+        "document": "size-guide",
+        "section": "Entre deux tailles",
+        "score": 0.799286202879553
+      },
+      {
+        "document": "size-guide",
+        "section": "Tailles des hauts et des vestes",
+        "score": 0.798091893107944
+      },
+      {
+        "document": "size-guide",
+        "section": "Tailles des pantalons et des jupes",
+        "score": 0.796205702457893
+      },
+      {
+        "document": "size-guide",
+        "section": "Comment prendre vos mesures",
+        "score": 0.787086617063155
+      },
+      {
+        "document": "size-guide",
+        "section": "Pointures des chaussures",
+        "score": 0.783365497187519
+      },
+      {
+        "document": "size-guide",
+        "section": "Coupe de nos articles",
+        "score": 0.772623931158932
+      },
+      {
+        "document": "size-guide",
+        "section": "Tailles des sous-vêtements et des maillots",
+        "score": 0.77176238141098
+      }
+    ]
+  },
+  {
+    "id": "Q54",
+    "language": "en",
+    "category": "direct",
+    "question": "Do you have a loyalty programme?",
+    "answerable": true,
+    "expected_documents": [
+      "promotions-loyalty"
+    ],
+    "expected_answer": "Yes. It is free with a customer account: 1 point per euro spent on items (delivery fees excluded), 100 points are worth a 5 euro discount, and points expire 12 months after they were earned.",
+    "hits": [
+      {
+        "document": "promotions-loyalty",
+        "section": "Loyalty programme",
+        "score": 0.847153798114997
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Newsletter and offers",
+        "score": 0.782102058488472
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Welcome offer",
+        "score": 0.774983979633085
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Using your points",
+        "score": 0.772413005774724
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Points expiry",
+        "score": 0.767145443042077
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Promo codes",
+        "score": 0.7568905747114
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Sale prices",
+        "score": 0.752198848487212
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Points and returns",
+        "score": 0.75188816333533
+      }
+    ]
+  },
+  {
+    "id": "Q55",
+    "language": "en",
+    "category": "not_covered",
+    "question": "What is your customer service phone number?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer. It may mention the chat assistant and the support email, but must not give a phone number.",
+    "hits": [
+      {
+        "document": "cancellations-and-address",
+        "section": "What to tell the assistant",
+        "score": 0.7156500638697549
+      },
+      {
+        "document": "contact-hours",
+        "section": "What the assistant can do",
+        "score": 0.7037011318984601
+      },
+      {
+        "document": "contact-hours",
+        "section": "Information to prepare",
+        "score": 0.701359374243237
+      },
+      {
+        "document": "customer-account",
+        "section": "Deleting your account",
+        "score": 0.6973038475988891
+      },
+      {
+        "document": "customer-account",
+        "section": "Account security",
+        "score": 0.6938529222344809
+      },
+      {
+        "document": "gift-cards",
+        "section": "Lost or unreceived code",
+        "score": 0.691709400220205
+      },
+      {
+        "document": "privacy",
+        "section": "Who can see your information",
+        "score": 0.690791836109923
+      },
+      {
+        "document": "returns",
+        "section": "How to request a return",
+        "score": 0.6907711029505079
+      }
+    ]
+  },
+  {
+    "id": "Q56",
+    "language": "en",
+    "category": "direct",
+    "question": "Can I pay in several instalments?",
+    "answerable": true,
+    "expected_documents": [
+      "payment-methods"
+    ],
+    "expected_answer": "No. Payment in instalments is not offered; the full amount is charged when the order is validated.",
+    "hits": [
+      {
+        "document": "payment-methods",
+        "section": "Paying in instalments",
+        "score": 0.848740315621482
+      },
+      {
+        "document": "payment-methods",
+        "section": "When you are charged",
+        "score": 0.744785294724314
+      },
+      {
+        "document": "payment-methods",
+        "section": "Accepted payment methods",
+        "score": 0.736858004259752
+      },
+      {
+        "document": "payment-methods",
+        "section": "Invoices",
+        "score": 0.728095550617065
+      },
+      {
+        "document": "payment-methods",
+        "section": "Payment refused",
+        "score": 0.726989462370982
+      },
+      {
+        "document": "payment-methods",
+        "section": "Currency",
+        "score": 0.726232201938815
+      },
+      {
+        "document": "payment-methods",
+        "section": "Charged twice",
+        "score": 0.725053914874549
+      },
+      {
+        "document": "payment-methods",
+        "section": "Payment security",
+        "score": 0.721958975216925
+      }
+    ]
+  },
+  {
+    "id": "Q57",
+    "language": "en",
+    "category": "not_covered",
+    "question": "Do you offer same-day delivery in my city?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer. It may mention express delivery (1 to 2 business days) but must not claim same-day delivery exists.",
+    "hits": [
+      {
+        "document": "shipping",
+        "section": "Where we deliver",
+        "score": 0.798812704826303
+      },
+      {
+        "document": "shipping",
+        "section": "Express delivery time",
+        "score": 0.78925643283407
+      },
+      {
+        "document": "shipping",
+        "section": "Choosing the delivery address",
+        "score": 0.77517048051071
+      },
+      {
+        "document": "shipping",
+        "section": "Standard delivery time",
+        "score": 0.765289861930925
+      },
+      {
+        "document": "order-tracking",
+        "section": "Parcel late",
+        "score": 0.761450277315483
+      },
+      {
+        "document": "shipping",
+        "section": "Late or lost parcels",
+        "score": 0.761267625683275
+      },
+      {
+        "document": "privacy",
+        "section": "Who your data is shared with",
+        "score": 0.757465142396057
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "When you can change the delivery address",
+        "score": 0.756496413958182
+      }
+    ]
+  },
+  {
+    "id": "Q58",
+    "language": "en",
+    "category": "not_covered",
+    "question": "Can I return an item I bought in your physical store?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer.",
+    "hits": [
+      {
+        "document": "returns",
+        "section": "Items that cannot be returned",
+        "score": 0.782897994590071
+      },
+      {
+        "document": "exchanges",
+        "section": "If you prefer a refund",
+        "score": 0.7786139118298601
+      },
+      {
+        "document": "returns",
+        "section": "Condition required for a return",
+        "score": 0.777343541384107
+      },
+      {
+        "document": "returns",
+        "section": "Refund after a return",
+        "score": 0.774388823442014
+      },
+      {
+        "document": "returns",
+        "section": "How to request a return",
+        "score": 0.774025292839105
+      },
+      {
+        "document": "refunds",
+        "section": "Which items are refunded",
+        "score": 0.768849147303547
+      },
+      {
+        "document": "returns",
+        "section": "Returning one item or several",
+        "score": 0.7672457678069871
+      },
+      {
+        "document": "defective-products",
+        "section": "Exception to the unworn condition",
+        "score": 0.765467384130657
+      }
+    ]
+  },
+  {
+    "id": "Q59",
+    "language": "en",
+    "category": "not_covered",
+    "question": "Is there a student discount?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer.",
+    "hits": [
+      {
+        "document": "promotions-loyalty",
+        "section": "Sale prices",
+        "score": 0.69732186010856
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Refund of discounted orders",
+        "score": 0.692995078605791
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Using your points",
+        "score": 0.690125560812776
+      },
+      {
+        "document": "payment-methods",
+        "section": "Paying in instalments",
+        "score": 0.6858086222476341
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Loyalty programme",
+        "score": 0.681259236541851
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Newsletter and offers",
+        "score": 0.668459533941357
+      },
+      {
+        "document": "payment-methods",
+        "section": "When you are charged",
+        "score": 0.667276674544487
+      },
+      {
+        "document": "payment-methods",
+        "section": "Accepted payment methods",
+        "score": 0.667108845476803
+      }
+    ]
+  },
+  {
+    "id": "Q60",
+    "language": "en",
+    "category": "not_covered",
+    "question": "Can I have my parcel delivered to a pickup point or parcel locker?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer.",
+    "hits": [
+      {
+        "document": "shipping",
+        "section": "Where we deliver",
+        "score": 0.790701782915093
+      },
+      {
+        "document": "shipping",
+        "section": "Choosing the delivery address",
+        "score": 0.787825155219284
+      },
+      {
+        "document": "order-tracking",
+        "section": "Marked delivered but not received",
+        "score": 0.786465041254595
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "When you can change the delivery address",
+        "score": 0.783380955265949
+      },
+      {
+        "document": "shipping",
+        "section": "Late or lost parcels",
+        "score": 0.779024069594642
+      },
+      {
+        "document": "returns",
+        "section": "No return before delivery",
+        "score": 0.778825816475435
+      },
+      {
+        "document": "exchanges",
+        "section": "No exchange before delivery",
+        "score": 0.768548552071609
+      },
+      {
+        "document": "order-tracking",
+        "section": "Damaged parcel or item",
+        "score": 0.765924091731253
+      }
+    ]
+  },
+  {
+    "id": "Q61",
+    "language": "fr",
+    "category": "direct",
+    "question": "Quels sont les horaires des conseillers ?",
+    "answerable": true,
+    "expected_documents": [
+      "contact-hours"
+    ],
+    "expected_answer": "Advisors work Monday to Friday, 9:00 to 18:00 local time, excluding public holidays. Tickets created outside these hours are handled on the next business day.",
+    "hits": [
+      {
+        "document": "contact-hours",
+        "section": "Horaires des conseillers",
+        "score": 0.841419245186389
+      },
+      {
+        "document": "contact-hours",
+        "section": "Jours fériés",
+        "score": 0.796453706805808
+      },
+      {
+        "document": "contact-hours",
+        "section": "Délai de réponse",
+        "score": 0.795351188206566
+      },
+      {
+        "document": "contact-hours",
+        "section": "Langues",
+        "score": 0.7935934194006851
+      },
+      {
+        "document": "contact-hours",
+        "section": "Ce que l'assistant peut faire",
+        "score": 0.789673587882478
+      },
+      {
+        "document": "contact-hours",
+        "section": "Réclamations",
+        "score": 0.7753010631295509
+      },
+      {
+        "document": "contact-hours",
+        "section": "Ce que l'assistant ne peut pas faire",
+        "score": 0.770358335401928
+      },
+      {
+        "document": "contact-hours",
+        "section": "Informations à préparer",
+        "score": 0.769302340817976
+      }
+    ]
+  },
+  {
+    "id": "Q62",
+    "language": "en",
+    "category": "direct",
+    "question": "How long do I have to report a defective item?",
+    "answerable": true,
+    "expected_documents": [
+      "defective-products"
+    ],
+    "expected_answer": "Within 30 days after the delivery date. After 30 days, the assistant passes the case to an advisor, who decides on any follow-up.",
+    "hits": [
+      {
+        "document": "defective-products",
+        "section": "Deadline to report a defect",
+        "score": 0.869747958182439
+      },
+      {
+        "document": "defective-products",
+        "section": "Exception to the unworn condition",
+        "score": 0.817793306075986
+      },
+      {
+        "document": "defective-products",
+        "section": "How to report a defect",
+        "score": 0.814076318976232
+      },
+      {
+        "document": "order-tracking",
+        "section": "Damaged parcel or item",
+        "score": 0.796797231041415
+      },
+      {
+        "document": "defective-products",
+        "section": "Wrong item received",
+        "score": 0.781674800459592
+      },
+      {
+        "document": "defective-products",
+        "section": "Possible solutions",
+        "score": 0.77572545469441
+      },
+      {
+        "document": "defective-products",
+        "section": "What is not a defect",
+        "score": 0.769645667105975
+      },
+      {
+        "document": "defective-products",
+        "section": "Costs",
+        "score": 0.7687534544047729
+      }
+    ]
+  },
+  {
+    "id": "Q63",
+    "language": "en",
+    "category": "direct",
+    "question": "How do I reset my password?",
+    "answerable": true,
+    "expected_documents": [
+      "customer-account"
+    ],
+    "expected_answer": "Use the forgot password link on the login page; a reset link is sent by email. If it does not arrive, check the spam folder, then tell the assistant.",
+    "hits": [
+      {
+        "document": "customer-account",
+        "section": "Forgotten password",
+        "score": 0.796490970803649
+      },
+      {
+        "document": "customer-account",
+        "section": "Account security",
+        "score": 0.765762389073412
+      },
+      {
+        "document": "customer-account",
+        "section": "Email not received",
+        "score": 0.735090340085627
+      },
+      {
+        "document": "customer-account",
+        "section": "Deleting your account",
+        "score": 0.7344992529882339
+      },
+      {
+        "document": "customer-account",
+        "section": "Logging in",
+        "score": 0.727918294560408
+      },
+      {
+        "document": "customer-account",
+        "section": "Creating an account",
+        "score": 0.719223767643205
+      },
+      {
+        "document": "gift-cards",
+        "section": "Lost or unreceived code",
+        "score": 0.717151216213589
+      },
+      {
+        "document": "privacy",
+        "section": "Your rights",
+        "score": 0.706089627434827
+      }
+    ]
+  },
+  {
+    "id": "Q64",
+    "language": "fr",
+    "category": "reformulated",
+    "question": "je suis entre le M et le L, je prends quoi ?",
+    "answerable": true,
+    "expected_documents": [
+      "size-guide"
+    ],
+    "expected_answer": "Choose the larger size (L) for a comfortable fit, or the smaller one (M) for a close fit.",
+    "hits": [
+      {
+        "document": "exchanges",
+        "section": "Bien choisir sa taille",
+        "score": 0.715213934941909
+      },
+      {
+        "document": "size-guide",
+        "section": "Entre deux tailles",
+        "score": 0.710711456500076
+      },
+      {
+        "document": "size-guide",
+        "section": "Tailles des hauts et des vestes",
+        "score": 0.7084353493418449
+      },
+      {
+        "document": "size-guide",
+        "section": "Tailles des pantalons et des jupes",
+        "score": 0.70317434449925
+      },
+      {
+        "document": "size-guide",
+        "section": "Comment prendre vos mesures",
+        "score": 0.698343130432098
+      },
+      {
+        "document": "order-tracking",
+        "section": "Marqué livré mais non reçu",
+        "score": 0.691087901112523
+      },
+      {
+        "document": "exchanges",
+        "section": "Disponibilité",
+        "score": 0.690763235177807
+      },
+      {
+        "document": "shipping",
+        "section": "Choisir l'adresse de livraison",
+        "score": 0.688045915664719
+      }
+    ]
+  },
+  {
+    "id": "Q65",
+    "language": "fr",
+    "category": "reformulated",
+    "question": "jai perdu le code de ma carte cadeau, je fais quoi",
+    "answerable": true,
+    "expected_documents": [
+      "gift-cards"
+    ],
+    "expected_answer": "Tell the assistant: it creates a ticket for an advisor. If the code was never received, check the spam folder first.",
+    "hits": [
+      {
+        "document": "gift-cards",
+        "section": "Code perdu ou non reçu",
+        "score": 0.8289505628694129
+      },
+      {
+        "document": "gift-cards",
+        "section": "Comment vous recevez une carte cadeau",
+        "score": 0.789803840590954
+      },
+      {
+        "document": "payment-methods",
+        "section": "Utiliser un code promo ou une carte cadeau au paiement",
+        "score": 0.7808988246597259
+      },
+      {
+        "document": "gift-cards",
+        "section": "Utiliser une carte cadeau",
+        "score": 0.779797392973946
+      },
+      {
+        "document": "gift-cards",
+        "section": "Remboursement d'une commande payée par carte cadeau",
+        "score": 0.7761479545939121
+      },
+      {
+        "document": "refunds",
+        "section": "Remboursement d'une commande payée par carte cadeau",
+        "score": 0.775088447782686
+      },
+      {
+        "document": "gift-cards",
+        "section": "Ce qu'est une carte cadeau",
+        "score": 0.768180545410275
+      },
+      {
+        "document": "gift-cards",
+        "section": "Utiliser une carte cadeau avec un autre moyen de paiement",
+        "score": 0.763967274230222
+      }
+    ]
+  },
+  {
+    "id": "Q66",
+    "language": "fr",
+    "category": "reformulated",
+    "question": "mon colis est marqué livré mais je lai pas reçu",
+    "answerable": true,
+    "expected_documents": [
+      "order-tracking"
+    ],
+    "expected_answer": "Check with neighbours or people at the address first. If it is still not found, the assistant creates a ticket for an advisor.",
+    "hits": [
+      {
+        "document": "order-tracking",
+        "section": "Marqué livré mais non reçu",
+        "score": 0.842825213722308
+      },
+      {
+        "document": "shipping",
+        "section": "Colis en retard ou perdu",
+        "score": 0.810719649395756
+      },
+      {
+        "document": "defective-products",
+        "section": "Endommagé pendant la livraison",
+        "score": 0.777500761896494
+      },
+      {
+        "document": "refunds",
+        "section": "Remboursement non reçu",
+        "score": 0.767525902530411
+      },
+      {
+        "document": "order-tracking",
+        "section": "Colis perdu",
+        "score": 0.767264676978198
+      },
+      {
+        "document": "returns",
+        "section": "Aucun retour avant la livraison",
+        "score": 0.764284545619503
+      },
+      {
+        "document": "order-tracking",
+        "section": "Article manquant dans le colis",
+        "score": 0.76046334976229
+      },
+      {
+        "document": "order-tracking",
+        "section": "Colis ou article endommagé",
+        "score": 0.7604471920807581
+      }
+    ]
+  },
+  {
+    "id": "Q67",
+    "language": "fr",
+    "category": "reformulated",
+    "question": "on ma débité 2 fois pour la même commande !!",
+    "answerable": true,
+    "expected_documents": [
+      "payment-methods"
+    ],
+    "expected_answer": "The assistant cannot move money. It creates a ticket for an advisor, who handles payment problems such as a double charge.",
+    "hits": [
+      {
+        "document": "payment-methods",
+        "section": "Débité deux fois",
+        "score": 0.807893954955502
+      },
+      {
+        "document": "refunds",
+        "section": "Problèmes de paiement",
+        "score": 0.7850546702528021
+      },
+      {
+        "document": "payment-methods",
+        "section": "Quand vous êtes débité",
+        "score": 0.753641871473224
+      },
+      {
+        "document": "refunds",
+        "section": "Remboursement d'une commande payée par carte cadeau",
+        "score": 0.7379091397264981
+      },
+      {
+        "document": "payment-methods",
+        "section": "Paiement en plusieurs fois",
+        "score": 0.730755501595302
+      },
+      {
+        "document": "refunds",
+        "section": "Remboursement non reçu",
+        "score": 0.728869103317073
+      },
+      {
+        "document": "refunds",
+        "section": "Moyen de remboursement",
+        "score": 0.72519970619778
+      },
+      {
+        "document": "gift-cards",
+        "section": "Remboursement d'une commande payée par carte cadeau",
+        "score": 0.723752952651451
+      }
+    ]
+  },
+  {
+    "id": "Q68",
+    "language": "fr",
+    "category": "reformulated",
+    "question": "le zip de ma veste a cassé au bout de 2 semaines, je peux la renvoyer ?",
+    "answerable": true,
+    "expected_documents": [
+      "defective-products",
+      "returns"
+    ],
+    "expected_answer": "Yes, a defect reported within 30 days after delivery can be sent back, even if the item was worn once, as long as it is not due to misuse. An advisor decides; sending back a defective item is free.",
+    "hits": [
+      {
+        "document": "size-guide",
+        "section": "Si la taille ne convient pas",
+        "score": 0.817721312663088
+      },
+      {
+        "document": "defective-products",
+        "section": "Exception à la condition « non porté »",
+        "score": 0.810726015776255
+      },
+      {
+        "document": "returns",
+        "section": "Délai de retour",
+        "score": 0.806341332960119
+      },
+      {
+        "document": "returns",
+        "section": "Aucun retour avant la livraison",
+        "score": 0.803795277734203
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Si la commande est déjà expédiée",
+        "score": 0.801883309183728
+      },
+      {
+        "document": "returns",
+        "section": "État requis pour un retour",
+        "score": 0.8008321838060399
+      },
+      {
+        "document": "returns",
+        "section": "Articles non retournables",
+        "score": 0.800781716255496
+      },
+      {
+        "document": "shipping",
+        "section": "À la livraison de votre commande",
+        "score": 0.797276243071326
+      }
+    ]
+  },
+  {
+    "id": "Q69",
+    "language": "en",
+    "category": "reformulated",
+    "question": "can i use two promo codes on the same order",
+    "answerable": true,
+    "expected_documents": [
+      "promotions-loyalty"
+    ],
+    "expected_answer": "No. Only one promo code can be used per order.",
+    "hits": [
+      {
+        "document": "promotions-loyalty",
+        "section": "Promo codes",
+        "score": 0.776576610299022
+      },
+      {
+        "document": "payment-methods",
+        "section": "Using a promo code or gift card at payment",
+        "score": 0.76288122058869
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Refund of discounted orders",
+        "score": 0.716251050309455
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Welcome offer",
+        "score": 0.702261602610244
+      },
+      {
+        "document": "gift-cards",
+        "section": "Using a gift card with another payment method",
+        "score": 0.6962074536581719
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Using your points",
+        "score": 0.678757589132589
+      },
+      {
+        "document": "payment-methods",
+        "section": "Charged twice",
+        "score": 0.673275844973448
+      },
+      {
+        "document": "gift-cards",
+        "section": "Using a gift card",
+        "score": 0.669573427768327
+      }
+    ]
+  },
+  {
+    "id": "Q70",
+    "language": "en",
+    "category": "reformulated",
+    "question": "i forgot my password and the email never came",
+    "answerable": true,
+    "expected_documents": [
+      "customer-account"
+    ],
+    "expected_answer": "Check the spam folder and the spelling of the email address. If it still does not arrive, tell the assistant, which creates a ticket.",
+    "hits": [
+      {
+        "document": "customer-account",
+        "section": "Forgotten password",
+        "score": 0.765644171518067
+      },
+      {
+        "document": "customer-account",
+        "section": "Email not received",
+        "score": 0.7633605031504009
+      },
+      {
+        "document": "gift-cards",
+        "section": "Lost or unreceived code",
+        "score": 0.717255031174308
+      },
+      {
+        "document": "customer-account",
+        "section": "Account security",
+        "score": 0.7108952623664551
+      },
+      {
+        "document": "customer-account",
+        "section": "Ordering and asking questions without an account",
+        "score": 0.686556902154053
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "What to tell the assistant",
+        "score": 0.6825494505613809
+      },
+      {
+        "document": "gift-cards",
+        "section": "How you receive a gift card",
+        "score": 0.68193258116232
+      },
+      {
+        "document": "privacy",
+        "section": "Marketing emails",
+        "score": 0.679040703598623
+      }
+    ]
+  },
+  {
+    "id": "Q71",
+    "language": "en",
+    "category": "reformulated",
+    "question": "is there a way to chat with a real person right now",
+    "answerable": true,
+    "expected_documents": [
+      "contact-hours"
+    ],
+    "expected_answer": "Advisors do not join the chat live. The assistant is available at any time and can create a ticket; advisors handle tickets Monday to Friday, 9:00 to 18:00.",
+    "hits": [
+      {
+        "document": "contact-hours",
+        "section": "Ways to contact the shop",
+        "score": 0.65368479222123
+      },
+      {
+        "document": "privacy",
+        "section": "Conversations with the assistant",
+        "score": 0.6274660757216151
+      },
+      {
+        "document": "contact-hours",
+        "section": "What the assistant can do",
+        "score": 0.608869047007794
+      },
+      {
+        "document": "customer-account",
+        "section": "Ordering and asking questions without an account",
+        "score": 0.599306285491596
+      },
+      {
+        "document": "privacy",
+        "section": "Your rights",
+        "score": 0.5990596914123449
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Checking whether your order is still in preparation",
+        "score": 0.5989379168098701
+      },
+      {
+        "document": "returns",
+        "section": "How to request a return",
+        "score": 0.5924391672377509
+      },
+      {
+        "document": "privacy",
+        "section": "Who can see your information",
+        "score": 0.5912518979938199
+      }
+    ]
+  },
+  {
+    "id": "Q72",
+    "language": "en",
+    "category": "reformulated",
+    "question": "can i put my suede boots in the washer",
+    "answerable": true,
+    "expected_documents": [
+      "garment-care"
+    ],
+    "expected_answer": "No. Never put leather or suede shoes in a washing machine. Brush suede with a suede brush and use a protective spray.",
+    "hits": [
+      {
+        "document": "garment-care",
+        "section": "Leather and suede shoes",
+        "score": 0.781486446880574
+      },
+      {
+        "document": "garment-care",
+        "section": "Canvas and sport shoes",
+        "score": 0.7262282855330551
+      },
+      {
+        "document": "garment-care",
+        "section": "Denim",
+        "score": 0.6996732913288539
+      },
+      {
+        "document": "garment-care",
+        "section": "Wool and knitwear",
+        "score": 0.694575641838094
+      },
+      {
+        "document": "garment-care",
+        "section": "Synthetic fabrics",
+        "score": 0.6832272915852651
+      },
+      {
+        "document": "garment-care",
+        "section": "Cotton and linen",
+        "score": 0.6748435019746579
+      },
+      {
+        "document": "garment-care",
+        "section": "Storage",
+        "score": 0.6710076622161429
+      },
+      {
+        "document": "defective-products",
+        "section": "What is not a defect",
+        "score": 0.671004077975382
+      }
+    ]
+  },
+  {
+    "id": "Q73",
+    "language": "en",
+    "category": "reformulated",
+    "question": "can u delete my account and my data",
+    "answerable": true,
+    "expected_documents": [
+      "customer-account",
+      "privacy"
+    ],
+    "expected_answer": "Yes, on request: tell the assistant, which creates a ticket for an advisor. Loyalty points are lost when an account is deleted.",
+    "hits": [
+      {
+        "document": "customer-account",
+        "section": "Deleting your account",
+        "score": 0.761817542980303
+      },
+      {
+        "document": "privacy",
+        "section": "How long data is kept",
+        "score": 0.7216463925426819
+      },
+      {
+        "document": "privacy",
+        "section": "Your rights",
+        "score": 0.7198658475212629
+      },
+      {
+        "document": "privacy",
+        "section": "What data the shop keeps",
+        "score": 0.688219591812557
+      },
+      {
+        "document": "privacy",
+        "section": "Why the data is used",
+        "score": 0.6753964473537419
+      },
+      {
+        "document": "customer-account",
+        "section": "Changing your details",
+        "score": 0.666685739724791
+      },
+      {
+        "document": "privacy",
+        "section": "Who your data is shared with",
+        "score": 0.664929958087727
+      },
+      {
+        "document": "customer-account",
+        "section": "Creating an account",
+        "score": 0.663566001096338
+      }
+    ]
+  },
+  {
+    "id": "Q74",
+    "language": "fr",
+    "category": "cross",
+    "question": "J'ai payé ma commande avec une carte cadeau et je retourne un article, comment suis-je remboursé ?",
+    "answerable": true,
+    "expected_documents": [
+      "gift-cards",
+      "refunds"
+    ],
+    "expected_answer": "The refund goes back to the balance of the gift card, because that was the payment method used. It comes 5 to 10 business days after the parcel is received.",
+    "hits": [
+      {
+        "document": "refunds",
+        "section": "Remboursement d'une commande payée par carte cadeau",
+        "score": 0.9032359470633585
+      },
+      {
+        "document": "gift-cards",
+        "section": "Remboursement d'une commande payée par carte cadeau",
+        "score": 0.892546517559074
+      },
+      {
+        "document": "returns",
+        "section": "Remboursement après un retour",
+        "score": 0.87129376078436
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Remboursement des commandes remisées",
+        "score": 0.870844198370816
+      },
+      {
+        "document": "refunds",
+        "section": "Moyen de remboursement",
+        "score": 0.869502534618024
+      },
+      {
+        "document": "exchanges",
+        "section": "Si vous préférez un remboursement",
+        "score": 0.868159719152198
+      },
+      {
+        "document": "refunds",
+        "section": "Quels articles sont remboursés",
+        "score": 0.866668431116928
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Points et retours",
+        "score": 0.852847226453872
+      }
+    ]
+  },
+  {
+    "id": "Q75",
+    "language": "fr",
+    "category": "cross",
+    "question": "J'ai utilisé un code promo sur ma commande. Si je retourne un article, je suis remboursé de combien ?",
+    "answerable": true,
+    "expected_documents": [
+      "promotions-loyalty",
+      "refunds"
+    ],
+    "expected_answer": "Of the amount actually paid for that item, not its full price.",
+    "hits": [
+      {
+        "document": "promotions-loyalty",
+        "section": "Remboursement des commandes remisées",
+        "score": 0.9100830298651319
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Points et retours",
+        "score": 0.878478311521352
+      },
+      {
+        "document": "refunds",
+        "section": "Quels articles sont remboursés",
+        "score": 0.86687995270772
+      },
+      {
+        "document": "returns",
+        "section": "Remboursement après un retour",
+        "score": 0.865179807673411
+      },
+      {
+        "document": "returns",
+        "section": "Retourner un article ou plusieurs",
+        "score": 0.853101883422117
+      },
+      {
+        "document": "exchanges",
+        "section": "Si vous préférez un remboursement",
+        "score": 0.850621528285003
+      },
+      {
+        "document": "refunds",
+        "section": "Remboursement d'une commande payée par carte cadeau",
+        "score": 0.849854913365557
+      },
+      {
+        "document": "returns",
+        "section": "Frais et envoi du retour",
+        "score": 0.848568280205724
+      }
+    ]
+  },
+  {
+    "id": "Q76",
+    "language": "en",
+    "category": "cross",
+    "question": "My jacket is defective and I received it 20 days ago. Is sending it back free, and does it have to be unworn?",
+    "answerable": true,
+    "expected_documents": [
+      "defective-products",
+      "returns"
+    ],
+    "expected_answer": "Sending back a defective item is free. Within 30 days, the unworn condition is relaxed if the defect is not caused by misuse (worn or washed once). An advisor decides.",
+    "hits": [
+      {
+        "document": "defective-products",
+        "section": "Exception to the unworn condition",
+        "score": 0.847564582687613
+      },
+      {
+        "document": "size-guide",
+        "section": "If the size is wrong",
+        "score": 0.816850254580381
+      },
+      {
+        "document": "defective-products",
+        "section": "Costs",
+        "score": 0.798563339385893
+      },
+      {
+        "document": "defective-products",
+        "section": "Deadline to report a defect",
+        "score": 0.790860042484315
+      },
+      {
+        "document": "returns",
+        "section": "Return deadline",
+        "score": 0.788948325444238
+      },
+      {
+        "document": "returns",
+        "section": "Condition required for a return",
+        "score": 0.787170697901007
+      },
+      {
+        "document": "returns",
+        "section": "Return shipping",
+        "score": 0.784149609126881
+      },
+      {
+        "document": "order-tracking",
+        "section": "Damaged parcel or item",
+        "score": 0.783697563149137
+      }
+    ]
+  },
+  {
+    "id": "Q77",
+    "language": "en",
+    "category": "cross",
+    "question": "My standard delivery is 8 business days late. What should I do, and how long should it normally take?",
+    "answerable": true,
+    "expected_documents": [
+      "shipping",
+      "order-tracking"
+    ],
+    "expected_answer": "Standard delivery normally takes 3 to 5 business days. If it is late, tell the assistant, which creates a ticket for an advisor.",
+    "hits": [
+      {
+        "document": "shipping",
+        "section": "Late or lost parcels",
+        "score": 0.840595415409116
+      },
+      {
+        "document": "shipping",
+        "section": "Standard delivery time",
+        "score": 0.836575994705874
+      },
+      {
+        "document": "order-tracking",
+        "section": "Parcel late",
+        "score": 0.827239879522745
+      },
+      {
+        "document": "shipping",
+        "section": "Express delivery time",
+        "score": 0.787669330182333
+      },
+      {
+        "document": "refunds",
+        "section": "Refund not received",
+        "score": 0.7720112373592269
+      },
+      {
+        "document": "refunds",
+        "section": "When the refund period starts",
+        "score": 0.767272764365544
+      },
+      {
+        "document": "contact-hours",
+        "section": "Response time",
+        "score": 0.76669302304038
+      },
+      {
+        "document": "refunds",
+        "section": "Refund timing",
+        "score": 0.765880457923195
+      }
+    ]
+  },
+  {
+    "id": "Q78",
+    "language": "fr",
+    "category": "application",
+    "question": "J'ai reçu ma commande il y a 31 jours, puis-je retourner un article non porté ?",
+    "answerable": true,
+    "expected_documents": [
+      "returns"
+    ],
+    "expected_answer": "No. The return period is 30 days after delivery, and 31 days have passed.",
+    "hits": [
+      {
+        "document": "returns",
+        "section": "Délai de retour",
+        "score": 0.864463068309979
+      },
+      {
+        "document": "defective-products",
+        "section": "Exception à la condition « non porté »",
+        "score": 0.856667578070405
+      },
+      {
+        "document": "size-guide",
+        "section": "Si la taille ne convient pas",
+        "score": 0.853944498273976
+      },
+      {
+        "document": "returns",
+        "section": "État requis pour un retour",
+        "score": 0.846979597248345
+      },
+      {
+        "document": "returns",
+        "section": "Articles non retournables",
+        "score": 0.846124987897375
+      },
+      {
+        "document": "returns",
+        "section": "Aucun retour avant la livraison",
+        "score": 0.845160296493244
+      },
+      {
+        "document": "shipping",
+        "section": "À la livraison de votre commande",
+        "score": 0.84515166407323
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Si la commande est déjà expédiée",
+        "score": 0.838441791963412
+      }
+    ]
+  },
+  {
+    "id": "Q79",
+    "language": "fr",
+    "category": "application",
+    "question": "J'ai 200 points de fidélité, ça fait combien de réduction ?",
+    "answerable": true,
+    "expected_documents": [
+      "promotions-loyalty"
+    ],
+    "expected_answer": "10 euros (100 points are worth a 5 euro discount).",
+    "hits": [
+      {
+        "document": "promotions-loyalty",
+        "section": "Utiliser vos points",
+        "score": 0.867163747918026
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Programme de fidélité",
+        "score": 0.834564434693885
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Points et retours",
+        "score": 0.830820783069742
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Expiration des points",
+        "score": 0.810895308878876
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Prix soldés",
+        "score": 0.799772483557435
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Remboursement des commandes remisées",
+        "score": 0.793167653301971
+      },
+      {
+        "document": "gift-cards",
+        "section": "Montants disponibles",
+        "score": 0.78218476932673
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Codes promo",
+        "score": 0.779020429088962
+      }
+    ]
+  },
+  {
+    "id": "Q80",
+    "language": "fr",
+    "category": "application",
+    "question": "J'ai gagné mes points de fidélité il y a 14 mois, puis-je encore les utiliser ?",
+    "answerable": true,
+    "expected_documents": [
+      "promotions-loyalty"
+    ],
+    "expected_answer": "No. Points expire 12 months after the day they were earned.",
+    "hits": [
+      {
+        "document": "promotions-loyalty",
+        "section": "Expiration des points",
+        "score": 0.859032021874564
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Utiliser vos points",
+        "score": 0.8247667208645559
+      },
+      {
+        "document": "gift-cards",
+        "section": "Validité",
+        "score": 0.822346484918503
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Points et retours",
+        "score": 0.821425274086077
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Programme de fidélité",
+        "score": 0.803823902647288
+      },
+      {
+        "document": "gift-cards",
+        "section": "Utiliser une carte cadeau avec un autre moyen de paiement",
+        "score": 0.790258574833792
+      },
+      {
+        "document": "gift-cards",
+        "section": "Utiliser une carte cadeau",
+        "score": 0.789458793783123
+      },
+      {
+        "document": "gift-cards",
+        "section": "Remboursement d'une commande payée par carte cadeau",
+        "score": 0.786992605464242
+      }
+    ]
+  },
+  {
+    "id": "Q81",
+    "language": "en",
+    "category": "application",
+    "question": "I spent 80 euros on items plus 7 euros for express delivery. How many loyalty points did I earn?",
+    "answerable": true,
+    "expected_documents": [
+      "promotions-loyalty"
+    ],
+    "expected_answer": "80 points: 1 point per euro spent on items, delivery fees not included.",
+    "hits": [
+      {
+        "document": "promotions-loyalty",
+        "section": "Loyalty programme",
+        "score": 0.855089898506133
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Using your points",
+        "score": 0.8496920554751319
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Points and returns",
+        "score": 0.812152066836783
+      },
+      {
+        "document": "shipping",
+        "section": "Delivery costs",
+        "score": 0.81129626699734
+      },
+      {
+        "document": "shipping",
+        "section": "How the free delivery threshold is calculated",
+        "score": 0.80075244983056
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Refund of discounted orders",
+        "score": 0.795362332124824
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Points expiry",
+        "score": 0.792235029306973
+      },
+      {
+        "document": "shipping",
+        "section": "Express delivery time",
+        "score": 0.7850428109996079
+      }
+    ]
+  },
+  {
+    "id": "Q82",
+    "language": "en",
+    "category": "application",
+    "question": "I received a defective jacket 45 days ago. Can I still send it back?",
+    "answerable": true,
+    "expected_documents": [
+      "defective-products"
+    ],
+    "expected_answer": "The standard procedure no longer applies after 30 days. The assistant passes the case to an advisor, who decides on any follow-up; no solution is guaranteed.",
+    "hits": [
+      {
+        "document": "defective-products",
+        "section": "Exception to the unworn condition",
+        "score": 0.804832349136773
+      },
+      {
+        "document": "defective-products",
+        "section": "Deadline to report a defect",
+        "score": 0.793750492946226
+      },
+      {
+        "document": "returns",
+        "section": "Return deadline",
+        "score": 0.782009570940603
+      },
+      {
+        "document": "size-guide",
+        "section": "If the size is wrong",
+        "score": 0.778953482028367
+      },
+      {
+        "document": "order-tracking",
+        "section": "Damaged parcel or item",
+        "score": 0.769510463865178
+      },
+      {
+        "document": "defective-products",
+        "section": "Costs",
+        "score": 0.76879304046068
+      },
+      {
+        "document": "shipping",
+        "section": "When your order is delivered",
+        "score": 0.767940720081323
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "If the order has already shipped",
+        "score": 0.761393367670147
+      }
+    ]
+  },
+  {
+    "id": "Q83",
+    "language": "en",
+    "category": "application",
+    "question": "I bought a gift card 13 months ago. Can I still use it?",
+    "answerable": true,
+    "expected_documents": [
+      "gift-cards"
+    ],
+    "expected_answer": "No. A gift card is valid for 12 months after the purchase date, so it has expired.",
+    "hits": [
+      {
+        "document": "gift-cards",
+        "section": "Validity",
+        "score": 0.824731117191387
+      },
+      {
+        "document": "gift-cards",
+        "section": "Using a gift card with another payment method",
+        "score": 0.765454268085848
+      },
+      {
+        "document": "gift-cards",
+        "section": "Using a gift card",
+        "score": 0.761809027628228
+      },
+      {
+        "document": "gift-cards",
+        "section": "Gift cards cannot be returned or exchanged for cash",
+        "score": 0.761141215056276
+      },
+      {
+        "document": "gift-cards",
+        "section": "What a gift card is",
+        "score": 0.754092807939618
+      },
+      {
+        "document": "gift-cards",
+        "section": "Lost or unreceived code",
+        "score": 0.754060099456498
+      },
+      {
+        "document": "payment-methods",
+        "section": "Using a promo code or gift card at payment",
+        "score": 0.749925092086112
+      },
+      {
+        "document": "refunds",
+        "section": "Refund of an order paid with a gift card",
+        "score": 0.748780614059606
+      }
+    ]
+  },
+  {
+    "id": "Q84",
+    "language": "fr",
+    "category": "not_covered",
+    "question": "Livrez-vous le dimanche ?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer.",
+    "hits": [
+      {
+        "document": "shipping",
+        "section": "Où nous livrons",
+        "score": 0.724658458149986
+      },
+      {
+        "document": "shipping",
+        "section": "Délai de livraison standard",
+        "score": 0.7163462811342409
+      },
+      {
+        "document": "shipping",
+        "section": "Choisir l'adresse de livraison",
+        "score": 0.712716613594548
+      },
+      {
+        "document": "refunds",
+        "section": "Délai de remboursement",
+        "score": 0.701040705351869
+      },
+      {
+        "document": "refunds",
+        "section": "Remboursement non reçu",
+        "score": 0.699261256860104
+      },
+      {
+        "document": "refunds",
+        "section": "Début du délai de remboursement",
+        "score": 0.6976081073973119
+      },
+      {
+        "document": "shipping",
+        "section": "Frais de livraison",
+        "score": 0.697362981344612
+      },
+      {
+        "document": "shipping",
+        "section": "À la livraison de votre commande",
+        "score": 0.697185084007896
+      }
+    ]
+  },
+  {
+    "id": "Q85",
+    "language": "fr",
+    "category": "not_covered",
+    "question": "Proposez-vous l'emballage cadeau ?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer.",
+    "hits": [
+      {
+        "document": "gift-cards",
+        "section": "Comment vous recevez une carte cadeau",
+        "score": 0.760034423637998
+      },
+      {
+        "document": "returns",
+        "section": "Frais et envoi du retour",
+        "score": 0.744172492852599
+      },
+      {
+        "document": "gift-cards",
+        "section": "Ce qu'est une carte cadeau",
+        "score": 0.742274676445235
+      },
+      {
+        "document": "gift-cards",
+        "section": "Utiliser une carte cadeau",
+        "score": 0.74144281649803
+      },
+      {
+        "document": "gift-cards",
+        "section": "Utiliser une carte cadeau avec un autre moyen de paiement",
+        "score": 0.738627386759107
+      },
+      {
+        "document": "gift-cards",
+        "section": "Montants disponibles",
+        "score": 0.738336120946065
+      },
+      {
+        "document": "defective-products",
+        "section": "Endommagé pendant la livraison",
+        "score": 0.73830668566738
+      },
+      {
+        "document": "gift-cards",
+        "section": "Remboursement d'une commande payée par carte cadeau",
+        "score": 0.73815954072347
+      }
+    ]
+  },
+  {
+    "id": "Q86",
+    "language": "fr",
+    "category": "not_covered",
+    "question": "Puis-je précommander un article qui n'est pas encore en stock ?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer.",
+    "hits": [
+      {
+        "document": "exchanges",
+        "section": "Disponibilité",
+        "score": 0.8090783984567009
+      },
+      {
+        "document": "returns",
+        "section": "Aucun retour avant la livraison",
+        "score": 0.80416345426997
+      },
+      {
+        "document": "order-tracking",
+        "section": "Article manquant dans le colis",
+        "score": 0.801307864657236
+      },
+      {
+        "document": "exchanges",
+        "section": "Pas d'échange avant la livraison",
+        "score": 0.795284842233538
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Vérifier si votre commande est encore en préparation",
+        "score": 0.794251473544191
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Modifications partielles",
+        "score": 0.79188502804232
+      },
+      {
+        "document": "order-tracking",
+        "section": "Commande encore en préparation",
+        "score": 0.791652058678842
+      },
+      {
+        "document": "defective-products",
+        "section": "Article reçu différent de la commande",
+        "score": 0.791370602818106
+      }
+    ]
+  },
+  {
+    "id": "Q87",
+    "language": "fr",
+    "category": "not_covered",
+    "question": "Puis-je avoir une facture au nom de mon entreprise avec un numéro de TVA ?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer. It may mention that an invoice is sent with the order confirmation, but must not claim company or VAT invoices exist.",
+    "hits": [
+      {
+        "document": "payment-methods",
+        "section": "Factures",
+        "score": 0.793065903717858
+      },
+      {
+        "document": "customer-account",
+        "section": "Poser des questions sans compte",
+        "score": 0.7756201224831349
+      },
+      {
+        "document": "returns",
+        "section": "Aucun retour avant la livraison",
+        "score": 0.764535661762725
+      },
+      {
+        "document": "returns",
+        "section": "Comment demander un retour",
+        "score": 0.763471903324722
+      },
+      {
+        "document": "privacy",
+        "section": "Pourquoi vos données sont utilisées",
+        "score": 0.763038835541247
+      },
+      {
+        "document": "privacy",
+        "section": "Données de paiement",
+        "score": 0.759778704397063
+      },
+      {
+        "document": "payment-methods",
+        "section": "Paiement en plusieurs fois",
+        "score": 0.759685649506727
+      },
+      {
+        "document": "order-tracking",
+        "section": "Comment suivre votre commande",
+        "score": 0.7590604097763349
+      }
+    ]
+  },
+  {
+    "id": "Q88",
+    "language": "fr",
+    "category": "not_covered",
+    "question": "Quel transporteur livre mes colis ?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer.",
+    "hits": [
+      {
+        "document": "shipping",
+        "section": "Colis en retard ou perdu",
+        "score": 0.802814303979815
+      },
+      {
+        "document": "order-tracking",
+        "section": "Marqué livré mais non reçu",
+        "score": 0.800254141327016
+      },
+      {
+        "document": "order-tracking",
+        "section": "Colis perdu",
+        "score": 0.798100923425958
+      },
+      {
+        "document": "shipping",
+        "section": "Où nous livrons",
+        "score": 0.796999838163739
+      },
+      {
+        "document": "shipping",
+        "section": "Choisir l'adresse de livraison",
+        "score": 0.793645061496523
+      },
+      {
+        "document": "order-tracking",
+        "section": "Informations à donner dans un ticket",
+        "score": 0.785542643659844
+      },
+      {
+        "document": "shipping",
+        "section": "Statuts d'une commande",
+        "score": 0.785439783028599
+      },
+      {
+        "document": "shipping",
+        "section": "Calcul du seuil de livraison gratuite",
+        "score": 0.783870023076464
+      }
+    ]
+  },
+  {
+    "id": "Q89",
+    "language": "fr",
+    "category": "not_covered",
+    "question": "Où sont fabriqués vos vêtements ?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer.",
+    "hits": [
+      {
+        "document": "garment-care",
+        "section": "Lisez toujours l'étiquette d'entretien",
+        "score": 0.776163908092627
+      },
+      {
+        "document": "garment-care",
+        "section": "Matières synthétiques",
+        "score": 0.7730606947661101
+      },
+      {
+        "document": "garment-care",
+        "section": "Entretien et retours",
+        "score": 0.770579720230206
+      },
+      {
+        "document": "garment-care",
+        "section": "Rangement",
+        "score": 0.767485402420983
+      },
+      {
+        "document": "garment-care",
+        "section": "Coton et lin",
+        "score": 0.766402666996816
+      },
+      {
+        "document": "size-guide",
+        "section": "Élasticité et matière",
+        "score": 0.76457169833936
+      },
+      {
+        "document": "size-guide",
+        "section": "Tailles des sous-vêtements et des maillots",
+        "score": 0.764307583452773
+      },
+      {
+        "document": "garment-care",
+        "section": "Chaussures en toile et de sport",
+        "score": 0.764216713746278
+      }
+    ]
+  },
+  {
+    "id": "Q90",
+    "language": "fr",
+    "category": "not_covered",
+    "question": "Faites-vous des retouches, par exemple raccourcir un pantalon ?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer.",
+    "hits": [
+      {
+        "document": "garment-care",
+        "section": "Entretien et retours",
+        "score": 0.808286235220816
+      },
+      {
+        "document": "size-guide",
+        "section": "Si la taille ne convient pas",
+        "score": 0.803868797763169
+      },
+      {
+        "document": "size-guide",
+        "section": "Élasticité et matière",
+        "score": 0.798702044719012
+      },
+      {
+        "document": "returns",
+        "section": "État requis pour un retour",
+        "score": 0.797095270350914
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Modifications partielles",
+        "score": 0.794916540260509
+      },
+      {
+        "document": "exchanges",
+        "section": "Bien choisir sa taille",
+        "score": 0.788906093942479
+      },
+      {
+        "document": "size-guide",
+        "section": "Coupe de nos articles",
+        "score": 0.78843190871738
+      },
+      {
+        "document": "returns",
+        "section": "Si votre retour est refusé",
+        "score": 0.788012318925227
+      }
+    ]
+  },
+  {
+    "id": "Q91",
+    "language": "fr",
+    "category": "not_covered",
+    "question": "Vendez-vous des vêtements pour enfants ?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer.",
+    "hits": [
+      {
+        "document": "size-guide",
+        "section": "Si la taille ne convient pas",
+        "score": 0.720393711887432
+      },
+      {
+        "document": "privacy",
+        "section": "Pourquoi vos données sont utilisées",
+        "score": 0.720327623378872
+      },
+      {
+        "document": "returns",
+        "section": "Articles non retournables",
+        "score": 0.7195955148689099
+      },
+      {
+        "document": "garment-care",
+        "section": "Entretien et retours",
+        "score": 0.7166022453534471
+      },
+      {
+        "document": "defective-products",
+        "section": "Exception à la condition « non porté »",
+        "score": 0.709432011753703
+      },
+      {
+        "document": "size-guide",
+        "section": "Élasticité et matière",
+        "score": 0.7092689689862419
+      },
+      {
+        "document": "garment-care",
+        "section": "Rangement",
+        "score": 0.70868024560731
+      },
+      {
+        "document": "exchanges",
+        "section": "Conditions d'un échange",
+        "score": 0.70856325719836
+      }
+    ]
+  },
+  {
+    "id": "Q92",
+    "language": "en",
+    "category": "not_covered",
+    "question": "Can I use two gift cards on the same order?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer.",
+    "hits": [
+      {
+        "document": "gift-cards",
+        "section": "Using a gift card with another payment method",
+        "score": 0.812411846749218
+      },
+      {
+        "document": "payment-methods",
+        "section": "Using a promo code or gift card at payment",
+        "score": 0.7857809656888131
+      },
+      {
+        "document": "gift-cards",
+        "section": "Using a gift card",
+        "score": 0.761289838076437
+      },
+      {
+        "document": "refunds",
+        "section": "Refund of an order paid with a gift card",
+        "score": 0.74163609299233
+      },
+      {
+        "document": "gift-cards",
+        "section": "Refund of an order paid with a gift card",
+        "score": 0.7397791357798
+      },
+      {
+        "document": "gift-cards",
+        "section": "What a gift card is",
+        "score": 0.720347931241364
+      },
+      {
+        "document": "payment-methods",
+        "section": "Charged twice",
+        "score": 0.718595210555254
+      },
+      {
+        "document": "payment-methods",
+        "section": "Accepted payment methods",
+        "score": 0.7167381019281149
+      }
+    ]
+  },
+  {
+    "id": "Q93",
+    "language": "en",
+    "category": "not_covered",
+    "question": "Can I return a gift I received without the receipt?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer. It may mention that returns are requested with the order number and the email used for the order.",
+    "hits": [
+      {
+        "document": "gift-cards",
+        "section": "Gift cards cannot be returned or exchanged for cash",
+        "score": 0.756893490168839
+      },
+      {
+        "document": "returns",
+        "section": "How to request a return",
+        "score": 0.745385395432827
+      },
+      {
+        "document": "refunds",
+        "section": "Refund of an order paid with a gift card",
+        "score": 0.744645824545384
+      },
+      {
+        "document": "gift-cards",
+        "section": "Refund of an order paid with a gift card",
+        "score": 0.739449629105803
+      },
+      {
+        "document": "returns",
+        "section": "Refund after a return",
+        "score": 0.7393574716796629
+      },
+      {
+        "document": "exchanges",
+        "section": "If you prefer a refund",
+        "score": 0.738517578514745
+      },
+      {
+        "document": "gift-cards",
+        "section": "Lost or unreceived code",
+        "score": 0.7351400744412699
+      },
+      {
+        "document": "returns",
+        "section": "Items that cannot be returned",
+        "score": 0.7339427339607281
+      }
+    ]
+  },
+  {
+    "id": "Q94",
+    "language": "en",
+    "category": "not_covered",
+    "question": "Do you match the price of other shops?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer.",
+    "hits": [
+      {
+        "document": "promotions-loyalty",
+        "section": "Sale prices",
+        "score": 0.733488001845608
+      },
+      {
+        "document": "privacy",
+        "section": "What data the shop keeps",
+        "score": 0.723373129852285
+      },
+      {
+        "document": "shipping",
+        "section": "Delivery costs",
+        "score": 0.7116297205796329
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Using your points",
+        "score": 0.708643547389866
+      },
+      {
+        "document": "contact-hours",
+        "section": "What the assistant can do",
+        "score": 0.707618410685863
+      },
+      {
+        "document": "payment-methods",
+        "section": "Accepted payment methods",
+        "score": 0.70713998864825
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Loyalty programme",
+        "score": 0.704267363625002
+      },
+      {
+        "document": "defective-products",
+        "section": "Costs",
+        "score": 0.702368785030435
+      }
+    ]
+  },
+  {
+    "id": "Q95",
+    "language": "en",
+    "category": "not_covered",
+    "question": "Do you have a mobile app?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer.",
+    "hits": [
+      {
+        "document": "payment-methods",
+        "section": "Accepted payment methods",
+        "score": 0.716422484928863
+      },
+      {
+        "document": "returns",
+        "section": "How to request a return",
+        "score": 0.7080595261994951
+      },
+      {
+        "document": "contact-hours",
+        "section": "What the assistant can do",
+        "score": 0.706693638292224
+      },
+      {
+        "document": "promotions-loyalty",
+        "section": "Newsletter and offers",
+        "score": 0.704605929257913
+      },
+      {
+        "document": "customer-account",
+        "section": "Creating an account",
+        "score": 0.704347603218726
+      },
+      {
+        "document": "order-tracking",
+        "section": "How to track your order",
+        "score": 0.703279604885727
+      },
+      {
+        "document": "privacy",
+        "section": "Why the data is used",
+        "score": 0.7030587853313071
+      },
+      {
+        "document": "customer-account",
+        "section": "Ordering and asking questions without an account",
+        "score": 0.70260664739436
+      }
+    ]
+  },
+  {
+    "id": "Q96",
+    "language": "en",
+    "category": "not_covered",
+    "question": "Can I give you my old clothes to recycle?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer.",
+    "hits": [
+      {
+        "document": "garment-care",
+        "section": "Care and returns",
+        "score": 0.7192236707111139
+      },
+      {
+        "document": "garment-care",
+        "section": "Storage",
+        "score": 0.714934207944341
+      },
+      {
+        "document": "exchanges",
+        "section": "Conditions for an exchange",
+        "score": 0.708424788475141
+      },
+      {
+        "document": "returns",
+        "section": "Condition required for a return",
+        "score": 0.704122076856759
+      },
+      {
+        "document": "garment-care",
+        "section": "Wool and knitwear",
+        "score": 0.70191357081217
+      },
+      {
+        "document": "size-guide",
+        "section": "If the size is wrong",
+        "score": 0.701672589400147
+      },
+      {
+        "document": "defective-products",
+        "section": "Exception to the unworn condition",
+        "score": 0.701482798571798
+      },
+      {
+        "document": "exchanges",
+        "section": "If you prefer a refund",
+        "score": 0.700359424402855
+      }
+    ]
+  },
+  {
+    "id": "Q97",
+    "language": "en",
+    "category": "not_covered",
+    "question": "Will you tell me when the black pullover is back in stock?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer.",
+    "hits": [
+      {
+        "document": "exchanges",
+        "section": "Availability",
+        "score": 0.72259858748104
+      },
+      {
+        "document": "size-guide",
+        "section": "If the size is wrong",
+        "score": 0.708441773293444
+      },
+      {
+        "document": "returns",
+        "section": "How to request a return",
+        "score": 0.703763245489861
+      },
+      {
+        "document": "garment-care",
+        "section": "Wool and knitwear",
+        "score": 0.70344125482055
+      },
+      {
+        "document": "gift-cards",
+        "section": "Lost or unreceived code",
+        "score": 0.702090587406432
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Partial changes",
+        "score": 0.701049837398555
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "Checking whether your order is still in preparation",
+        "score": 0.7009155064584209
+      },
+      {
+        "document": "returns",
+        "section": "Condition required for a return",
+        "score": 0.700515644010388
+      }
+    ]
+  },
+  {
+    "id": "Q98",
+    "language": "en",
+    "category": "not_covered",
+    "question": "Can I change my payment method after placing the order?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer.",
+    "hits": [
+      {
+        "document": "payment-methods",
+        "section": "When you are charged",
+        "score": 0.780548648308141
+      },
+      {
+        "document": "payment-methods",
+        "section": "Using a promo code or gift card at payment",
+        "score": 0.779499445266397
+      },
+      {
+        "document": "payment-methods",
+        "section": "Paying in instalments",
+        "score": 0.77649667177333
+      },
+      {
+        "document": "shipping",
+        "section": "Choosing the delivery address",
+        "score": 0.772996083237184
+      },
+      {
+        "document": "payment-methods",
+        "section": "Refunds and payment methods",
+        "score": 0.768198132798702
+      },
+      {
+        "document": "payment-methods",
+        "section": "Accepted payment methods",
+        "score": 0.756876950839356
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "When you can change the delivery address",
+        "score": 0.756848779464554
+      },
+      {
+        "document": "gift-cards",
+        "section": "Using a gift card with another payment method",
+        "score": 0.7552201148513931
+      }
+    ]
+  },
+  {
+    "id": "Q99",
+    "language": "en",
+    "category": "not_covered",
+    "question": "Can I choose a delivery time slot?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer.",
+    "hits": [
+      {
+        "document": "shipping",
+        "section": "Choosing the delivery address",
+        "score": 0.7447732663482509
+      },
+      {
+        "document": "cancellations-and-address",
+        "section": "When you can change the delivery address",
+        "score": 0.708983424022368
+      },
+      {
+        "document": "shipping",
+        "section": "Express delivery time",
+        "score": 0.7054676693377611
+      },
+      {
+        "document": "exchanges",
+        "section": "No exchange before delivery",
+        "score": 0.704866322412306
+      },
+      {
+        "document": "shipping",
+        "section": "Where we deliver",
+        "score": 0.700061963050163
+      },
+      {
+        "document": "returns",
+        "section": "How to request a return",
+        "score": 0.6988843428130209
+      },
+      {
+        "document": "returns",
+        "section": "No return before delivery",
+        "score": 0.694466125619809
+      },
+      {
+        "document": "shipping",
+        "section": "When your order is delivered",
+        "score": 0.6940780660233
+      }
+    ]
+  },
+  {
+    "id": "Q100",
+    "language": "fr",
+    "category": "not_covered",
+    "question": "Pouvez-vous me conseiller une tenue pour un mariage ?",
+    "answerable": false,
+    "expected_documents": [],
+    "expected_answer": "The documents do not cover this. The assistant says it does not have this information and does not invent an answer.",
+    "hits": [
+      {
+        "document": "exchanges",
+        "section": "Bien choisir sa taille",
+        "score": 0.7124864908998669
+      },
+      {
+        "document": "size-guide",
+        "section": "Si la taille ne convient pas",
+        "score": 0.7048620375054451
+      },
+      {
+        "document": "size-guide",
+        "section": "Comment prendre vos mesures",
+        "score": 0.7031266916376431
+      },
+      {
+        "document": "exchanges",
+        "section": "Disponibilité",
+        "score": 0.70093234840968
+      },
+      {
+        "document": "size-guide",
+        "section": "Entre deux tailles",
+        "score": 0.69865854960107
+      },
+      {
+        "document": "garment-care",
+        "section": "Coton et lin",
+        "score": 0.6978770482987879
+      },
+      {
+        "document": "size-guide",
+        "section": "Élasticité et matière",
+        "score": 0.697071616291015
+      },
+      {
+        "document": "garment-care",
+        "section": "Détacher",
+        "score": 0.697062457808472
+      }
+    ]
+  }
+]

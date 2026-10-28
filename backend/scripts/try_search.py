@@ -10,10 +10,9 @@ from app.rag.retrieval import search_policies
 
 # (langue de la conversation, question)
 QUESTIONS = [
-    ("fr", "Puis-je retourner un article après 40 jours ?"),
-    ("en", "How long does standard delivery take?"),
-    ("fr", "Je me suis trompée d'adresse, je peux la changer une fois le colis expédié ?"),
-    ("en", "Do you sell ski socks?"),  # non couverte : on regarde quels scores on obtient
+    ("en", "My order has been delivered. Can I still change the address or cancel it?"),
+    ("en", "I want to cancel my order and get my money back, how does it work?"),
+    ("en", "My jacket is defective and I received it 20 days ago. Is sending it back free, and does it have to be unworn?"),
 ]
 
 PAUSE_SECONDS = 1.1  # le plan gratuit de Mistral limite à environ une requête par seconde
