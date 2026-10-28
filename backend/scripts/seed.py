@@ -25,7 +25,7 @@ def seed() -> None:
 
     with SessionLocal() as session:
         # 1. Vider les tables de démo, dans l'ordre inverse des dépendances.
-        # policy_passages n'est pas touchée.
+        # policy_chunks n'est pas touchée.
         for model in (Ticket, Return, Message, Conversation, OrderItem, Order, User):
             session.execute(delete(model))
 
