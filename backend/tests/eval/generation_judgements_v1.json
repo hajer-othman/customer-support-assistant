@@ -1,0 +1,527 @@
+[
+  {
+    "id": "Q01",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q02",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q03",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q04",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q05",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q06",
+    "verdict": "PARTIAL",
+    "reason": "pas de contradiction, mais des faits clés manquent",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q07",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q08",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q09",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q10",
+    "verdict": "PARTIAL",
+    "reason": "pas de contradiction, mais des faits clés manquent",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q11",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q12",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q13",
+    "verdict": "PARTIAL",
+    "reason": "pas de contradiction, mais des faits clés manquent",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q14",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q15",
+    "verdict": "INCORRECT",
+    "reason": "contradiction : Oui, vous pouvez renvoyer vos baskets après 3 semaines\"* (omets la condition \"unworn, with tags and original packaging\")",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q16",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q17",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q18",
+    "verdict": "INCORRECT",
+    "reason": "contradiction : Je ne peux pas modifier la taille d’un article déjà commandé",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q19",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q20",
+    "verdict": "PARTIAL",
+    "reason": "pas de contradiction, mais des faits clés manquent",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q21",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q22",
+    "verdict": "PARTIAL",
+    "reason": "pas de contradiction, mais des faits clés manquent",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q23",
+    "verdict": "PARTIAL",
+    "reason": "pas de contradiction, mais des faits clés manquent",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q24",
+    "verdict": "PARTIAL",
+    "reason": "pas de contradiction, mais des faits clés manquent",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q25",
+    "verdict": "PARTIAL",
+    "reason": "pas de contradiction, mais des faits clés manquent",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q26",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q27",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q28",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q29",
+    "verdict": "INCORRECT",
+    "reason": "contradiction : Votre commande n'est pas encore livrée, donc vous ne pouvez pas encore demander de retour",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q30",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q31",
+    "verdict": "PARTIAL",
+    "reason": "pas de contradiction, mais des faits clés manquent",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q32",
+    "verdict": "PARTIAL",
+    "reason": "pas de contradiction, mais des faits clés manquent",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q33",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q34",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q35",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q36",
+    "verdict": "PARTIAL",
+    "reason": "pas de contradiction, mais des faits clés manquent",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q37",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q38",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q39",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q40",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q41",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q42",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q43",
+    "verdict": "PARTIAL",
+    "reason": "pas de contradiction, mais des faits clés manquent",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q44",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q45",
+    "verdict": "INCORRECT",
+    "reason": "contradiction : The refund timing depends on when the shop received your returned parcel, not when you received it.",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q47",
+    "verdict": "PARTIAL",
+    "reason": "pas de contradiction, mais des faits clés manquent",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q48",
+    "verdict": "INCORRECT",
+    "reason": "contradiction : Elle est disponible sous forme de code numérique d'une valeur fixe pour payer des articles",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q50",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q51",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q52",
+    "verdict": "PARTIAL",
+    "reason": "pas de contradiction, mais des faits clés manquent",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q54",
+    "verdict": "PARTIAL",
+    "reason": "pas de contradiction, mais des faits clés manquent",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q56",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q61",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q62",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q63",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q64",
+    "verdict": "INCORRECT",
+    "reason": "contradiction : choisissez la taille **L** pour les hauts et vestes, car elle correspond à un tour de poitrine plus large",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q65",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q66",
+    "verdict": "PARTIAL",
+    "reason": "pas de contradiction, mais des faits clés manquent",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q67",
+    "verdict": "PARTIAL",
+    "reason": "pas de contradiction, mais des faits clés manquent",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q68",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q69",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q70",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q71",
+    "verdict": "PARTIAL",
+    "reason": "pas de contradiction, mais des faits clés manquent",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q72",
+    "verdict": "PARTIAL",
+    "reason": "pas de contradiction, mais des faits clés manquent",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q73",
+    "verdict": "PARTIAL",
+    "reason": "pas de contradiction, mais des faits clés manquent",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q74",
+    "verdict": "PARTIAL",
+    "reason": "pas de contradiction, mais des faits clés manquent",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q75",
+    "verdict": "PARTIAL",
+    "reason": "pas de contradiction, mais des faits clés manquent",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q76",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q77",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q78",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q79",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q80",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q81",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q82",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  },
+  {
+    "id": "Q83",
+    "verdict": "CORRECT",
+    "reason": "tous les faits clés, pas de contradiction",
+    "judge_version": "v2",
+    "judge_model": "ministral-14b-2512"
+  }
+]
