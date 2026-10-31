@@ -1,5 +1,7 @@
 import logging
 
+from app.rag.display import clean_answer
+
 import httpx
 from fastapi import Depends, FastAPI, HTTPException
 from sqlalchemy.orm import Session
@@ -62,7 +64,7 @@ def chat(payload: ChatRequest, db: Session = Depends(get_db)):
         raise HTTPException(status_code=503, detail=UNAVAILABLE_MESSAGE)
 
     return ChatResponse(
-        answer=result.text,
+        answer=clean_answer(result.text, result.retrieved),
         covered=result.covered,
         language=language,
         sources=[
